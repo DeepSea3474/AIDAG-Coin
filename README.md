@@ -1,2 +1,1 @@
 # AIDAG-Coin
-AI-Powered
