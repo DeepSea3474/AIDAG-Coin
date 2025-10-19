@@ -1,0 +1,1627 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @nomicfoundation/hardhat-toolbox
+7 verbose argv "install" "--save-dev" "@nomicfoundation/hardhat-toolbox" "--legacy-peer-deps"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-10-18T17_45_26_947Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-10-18T17_45_26_947Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @nomicfoundation/hardhat-toolbox@^6.1.0
+15 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox 2179ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox set size:63366 disposed:false
+18 silly placeDep ROOT @nomicfoundation/hardhat-toolbox@6.1.0 REPLACE for:  want: ^6.1.0
+19 silly reify mark retired [
+19 silly reify   '/data/data/com.termux/files/home/node_modules/@adraffy/ens-normalize'
+19 silly reify ]
+20 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@colors/colors' ]
+21 silly reify mark retired [
+21 silly reify   '/data/data/com.termux/files/home/node_modules/@cspotcode/source-map-support'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/data/data/com.termux/files/home/node_modules/@ethereumjs/rlp',
+22 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/rlp'
+22 silly reify ]
+23 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@ethereumjs/util' ]
+24 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@ethersproject/abi' ]
+25 silly reify mark retired [
+25 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/abstract-provider'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/abstract-signer'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/address'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/base64'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/bignumber'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/bytes'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/constants'
+31 silly reify ]
+32 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@ethersproject/hash' ]
+33 silly reify mark retired [
+33 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/keccak256'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/logger'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/networks'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/properties'
+36 silly reify ]
+37 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@ethersproject/rlp' ]
+38 silly reify mark retired [
+38 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/signing-key'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/strings'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/transactions'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/units'
+41 silly reify ]
+42 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@ethersproject/web' ]
+43 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@fastify/busboy' ]
+44 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@isaacs/cliui' ]
+45 silly reify mark retired [
+45 silly reify   '/data/data/com.termux/files/home/node_modules/@jridgewell/resolve-uri'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/data/data/com.termux/files/home/node_modules/@jridgewell/sourcemap-codec'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/data/data/com.termux/files/home/node_modules/@jridgewell/trace-mapping'
+47 silly reify ]
+48 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@noble/ciphers' ]
+49 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@nodelib/fs.scandir' ]
+50 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@nodelib/fs.stat' ]
+51 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@nodelib/fs.walk' ]
+52 silly reify mark retired [
+52 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-chai-matchers'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-ethers'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-ignition'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-ignition-ethers'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-network-helpers'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-verify'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/ignition-core'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/ignition-ui'
+59 silly reify ]
+60 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@pkgjs/parseargs' ]
+61 silly reify mark retired [
+61 silly reify   '/data/data/com.termux/files/home/node_modules/@solidity-parser/parser'
+61 silly reify ]
+62 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@tsconfig/node10' ]
+63 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@tsconfig/node12' ]
+64 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@tsconfig/node14' ]
+65 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@tsconfig/node16' ]
+66 silly reify mark retired [
+66 silly reify   '/data/data/com.termux/files/home/node_modules/@typechain/ethers-v6'
+66 silly reify ]
+67 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@typechain/hardhat' ]
+68 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/bn.js' ]
+69 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/chai' ]
+70 silly reify mark retired [
+70 silly reify   '/data/data/com.termux/files/home/node_modules/@types/chai-as-promised'
+70 silly reify ]
+71 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/glob' ]
+72 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/minimatch' ]
+73 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/mocha' ]
+74 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/node' ]
+75 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/pbkdf2' ]
+76 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/prettier' ]
+77 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@types/secp256k1' ]
+78 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/abbrev' ]
+79 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/abitype' ]
+80 silly reify mark retired [
+80 silly reify   '/data/data/com.termux/files/home/node_modules/acorn',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/acorn'
+80 silly reify ]
+81 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/acorn-walk' ]
+82 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/aes-js' ]
+83 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ajv' ]
+84 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/amdefine' ]
+85 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ansi-styles' ]
+86 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/anymatch' ]
+87 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/arg' ]
+88 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/argparse' ]
+89 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/array-back' ]
+90 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/array-union' ]
+91 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/assertion-error' ]
+92 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/astral-regex' ]
+93 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/async' ]
+94 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/asynckit' ]
+95 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/at-least-node' ]
+96 silly reify mark retired [
+96 silly reify   '/data/data/com.termux/files/home/node_modules/available-typed-arrays'
+96 silly reify ]
+97 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/axios' ]
+98 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/balanced-match' ]
+99 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/base-x' ]
+100 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/binary-extensions' ]
+101 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/blakejs' ]
+102 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/bn.js' ]
+103 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/brace-expansion' ]
+104 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/braces' ]
+105 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/brorand' ]
+106 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/brotli-wasm' ]
+107 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/browser-stdout' ]
+108 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/browserify-aes' ]
+109 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/bs58' ]
+110 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/bs58check' ]
+111 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/buffer-xor' ]
+112 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/call-bind' ]
+113 silly reify mark retired [
+113 silly reify   '/data/data/com.termux/files/home/node_modules/call-bind-apply-helpers'
+113 silly reify ]
+114 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/call-bound' ]
+115 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/camelcase' ]
+116 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cbor' ]
+117 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/chai' ]
+118 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/chai-as-promised' ]
+119 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/charenc' ]
+120 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/check-error' ]
+121 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cipher-base' ]
+122 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cli-table3' ]
+123 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cliui' ]
+124 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-convert' ]
+125 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-name' ]
+126 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/combined-stream' ]
+127 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/command-line-args' ]
+128 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/command-line-usage' ]
+129 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/concat-map' ]
+130 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/core-util-is' ]
+131 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/create-hash' ]
+132 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/create-hmac' ]
+133 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/create-require' ]
+134 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cross-spawn' ]
+135 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/crypt' ]
+136 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/death' ]
+137 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/decamelize' ]
+138 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/deep-eql' ]
+139 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/deep-extend' ]
+140 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/deep-is' ]
+141 silly reify mark retired [
+141 silly reify   '/data/data/com.termux/files/home/node_modules/define-data-property'
+141 silly reify ]
+142 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/delayed-stream' ]
+143 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/diff' ]
+144 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/difflib' ]
+145 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/dir-glob' ]
+146 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/dunder-proto' ]
+147 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/eastasianwidth' ]
+148 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/elliptic' ]
+149 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/emoji-regex' ]
+150 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-define-property' ]
+151 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-errors' ]
+152 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-object-atoms' ]
+153 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-set-tostringtag' ]
+154 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/escalade' ]
+155 silly reify mark retired [
+155 silly reify   '/data/data/com.termux/files/home/node_modules/escape-string-regexp'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/data/data/com.termux/files/home/node_modules/escodegen',
+156 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/escodegen',
+156 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/esgenerate'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/data/data/com.termux/files/home/node_modules/esprima',
+157 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/esparse',
+157 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/esvalidate'
+157 silly reify ]
+158 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/estraverse' ]
+159 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/esutils' ]
+160 silly reify mark retired [
+160 silly reify   '/data/data/com.termux/files/home/node_modules/ethereum-bloom-filters'
+160 silly reify ]
+161 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ethereumjs-util' ]
+162 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ethers' ]
+163 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ethjs-unit' ]
+164 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/eventemitter3' ]
+165 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/evp_bytestokey' ]
+166 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fast-deep-equal' ]
+167 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fast-glob' ]
+168 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fast-levenshtein' ]
+169 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fast-uri' ]
+170 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fastq' ]
+171 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fill-range' ]
+172 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/find-replace' ]
+173 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/find-up' ]
+174 silly reify mark retired [
+174 silly reify   '/data/data/com.termux/files/home/node_modules/flat',
+174 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/flat'
+174 silly reify ]
+175 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/follow-redirects' ]
+176 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/for-each' ]
+177 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/foreground-child' ]
+178 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/form-data' ]
+179 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fs-extra' ]
+180 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fs.realpath' ]
+181 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/function-bind' ]
+182 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-caller-file' ]
+183 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-func-name' ]
+184 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-intrinsic' ]
+185 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-proto' ]
+186 silly reify mark retired [
+186 silly reify   '/data/data/com.termux/files/home/node_modules/ghost-testrpc',
+186 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/testrpc-sc'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/data/data/com.termux/files/home/node_modules/glob',
+187 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/glob'
+187 silly reify ]
+188 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/glob-parent' ]
+189 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/global-modules' ]
+190 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/global-prefix' ]
+191 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/globby' ]
+192 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/gopd' ]
+193 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/graceful-fs' ]
+194 silly reify mark retired [
+194 silly reify   '/data/data/com.termux/files/home/node_modules/handlebars',
+194 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/handlebars'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/data/data/com.termux/files/home/node_modules/hardhat-gas-reporter'
+195 silly reify ]
+196 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-flag' ]
+197 silly reify mark retired [
+197 silly reify   '/data/data/com.termux/files/home/node_modules/has-property-descriptors'
+197 silly reify ]
+198 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-symbols' ]
+199 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-tostringtag' ]
+200 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/hash-base' ]
+201 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/hash.js' ]
+202 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/hasown' ]
+203 silly reify mark retired [
+203 silly reify   '/data/data/com.termux/files/home/node_modules/he',
+203 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/he'
+203 silly reify ]
+204 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/heap' ]
+205 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/hmac-drbg' ]
+206 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ignore' ]
+207 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/immer' ]
+208 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/inflight' ]
+209 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/inherits' ]
+210 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ini' ]
+211 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/interpret' ]
+212 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-binary-path' ]
+213 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-callable' ]
+214 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-extglob' ]
+215 silly reify mark retired [
+215 silly reify   '/data/data/com.termux/files/home/node_modules/is-fullwidth-code-point'
+215 silly reify ]
+216 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-glob' ]
+217 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-hex-prefixed' ]
+218 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-number' ]
+219 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-plain-obj' ]
+220 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/is-typed-array' ]
+221 silly reify mark retired [
+221 silly reify   '/data/data/com.termux/files/home/node_modules/is-unicode-supported'
+221 silly reify ]
+222 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/isarray' ]
+223 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/isexe' ]
+224 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/isows' ]
+225 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/jackspeak' ]
+226 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/js-sha3' ]
+227 silly reify mark retired [
+227 silly reify   '/data/data/com.termux/files/home/node_modules/js-yaml',
+227 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/js-yaml'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   '/data/data/com.termux/files/home/node_modules/json-schema-traverse'
+228 silly reify ]
+229 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/json-stringify-safe' ]
+230 silly reify mark retired [
+230 silly reify   '/data/data/com.termux/files/home/node_modules/json5',
+230 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/json5'
+230 silly reify ]
+231 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/jsonfile' ]
+232 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/jsonschema' ]
+233 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/keccak' ]
+234 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/kind-of' ]
+235 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/kleur' ]
+236 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/levn' ]
+237 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/locate-path' ]
+238 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash' ]
+239 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash.camelcase' ]
+240 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash.clonedeep' ]
+241 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash.isequal' ]
+242 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash.truncate' ]
+243 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/log-symbols' ]
+244 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/loupe' ]
+245 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lru-cache' ]
+246 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/make-error' ]
+247 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/markdown-table' ]
+248 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/math-intrinsics' ]
+249 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/md5.js' ]
+250 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/merge2' ]
+251 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/micro-ftch' ]
+252 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/micromatch' ]
+253 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/mime-db' ]
+254 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/mime-types' ]
+255 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/minimalistic-assert' ]
+256 silly reify mark retired [
+256 silly reify   '/data/data/com.termux/files/home/node_modules/minimalistic-crypto-utils'
+256 silly reify ]
+257 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/minimatch' ]
+258 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/minimist' ]
+259 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/minipass' ]
+260 silly reify mark retired [
+260 silly reify   '/data/data/com.termux/files/home/node_modules/mkdirp',
+260 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/mkdirp'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   '/data/data/com.termux/files/home/node_modules/mocha',
+261 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/_mocha',
+261 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/mocha'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   '/data/data/com.termux/files/home/node_modules/ndjson',
+262 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ndjson'
+262 silly reify ]
+263 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/neo-async' ]
+264 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/node-addon-api' ]
+265 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/node-emoji' ]
+266 silly reify mark retired [
+266 silly reify   '/data/data/com.termux/files/home/node_modules/node-gyp-build',
+266 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-gyp-build',
+266 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-gyp-build-optional',
+266 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-gyp-build-test'
+266 silly reify ]
+267 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/nofilter' ]
+268 silly reify mark retired [
+268 silly reify   '/data/data/com.termux/files/home/node_modules/nopt',
+268 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/nopt'
+268 silly reify ]
+269 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/normalize-path' ]
+270 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/number-to-bn' ]
+271 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/once' ]
+272 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/optionator' ]
+273 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ordinal' ]
+274 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ox' ]
+275 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-limit' ]
+276 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-locate' ]
+277 silly reify mark retired [
+277 silly reify   '/data/data/com.termux/files/home/node_modules/package-json-from-dist'
+277 silly reify ]
+278 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-exists' ]
+279 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-is-absolute' ]
+280 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-key' ]
+281 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-scurry' ]
+282 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-type' ]
+283 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/pathval' ]
+284 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/pbkdf2' ]
+285 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/picocolors' ]
+286 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/picomatch' ]
+287 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/pify' ]
+288 silly reify mark retired [
+288 silly reify   '/data/data/com.termux/files/home/node_modules/possible-typed-array-names'
+288 silly reify ]
+289 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/prelude-ls' ]
+290 silly reify mark retired [
+290 silly reify   '/data/data/com.termux/files/home/node_modules/prettier',
+290 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/prettier'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   '/data/data/com.termux/files/home/node_modules/process-nextick-args'
+291 silly reify ]
+292 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/prompts' ]
+293 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/proxy-from-env' ]
+294 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/queue-microtask' ]
+295 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/randombytes' ]
+296 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/readable-stream' ]
+297 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/rechoir' ]
+298 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/recursive-readdir' ]
+299 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/reduce-flatten' ]
+300 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/repeat-string' ]
+301 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/require-directory' ]
+302 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/require-from-string' ]
+303 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/resolve' ]
+304 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/reusify' ]
+305 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ripemd160' ]
+306 silly reify mark retired [
+306 silly reify   '/data/data/com.termux/files/home/node_modules/rlp',
+306 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/rlp'
+306 silly reify ]
+307 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/run-parallel' ]
+308 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/safe-buffer' ]
+309 silly reify mark retired [
+309 silly reify   '/data/data/com.termux/files/home/node_modules/sc-istanbul',
+309 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/istanbul'
+309 silly reify ]
+310 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/scrypt-js' ]
+311 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/secp256k1' ]
+312 silly reify mark retired [
+312 silly reify   '/data/data/com.termux/files/home/node_modules/serialize-javascript'
+312 silly reify ]
+313 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/set-function-length' ]
+314 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/setimmediate' ]
+315 silly reify mark retired [
+315 silly reify   '/data/data/com.termux/files/home/node_modules/sha.js',
+315 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/sha.js'
+315 silly reify ]
+316 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/sha1' ]
+317 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/shebang-command' ]
+318 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/shebang-regex' ]
+319 silly reify mark retired [
+319 silly reify   '/data/data/com.termux/files/home/node_modules/shelljs',
+319 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/shjs'
+319 silly reify ]
+320 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/signal-exit' ]
+321 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/sisteransi' ]
+322 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/slash' ]
+323 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/slice-ansi' ]
+324 silly reify mark retired [
+324 silly reify   '/data/data/com.termux/files/home/node_modules/solidity-coverage',
+324 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/solidity-coverage'
+324 silly reify ]
+325 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/source-map' ]
+326 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/split2' ]
+327 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/sprintf-js' ]
+328 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string_decoder' ]
+329 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string-format' ]
+330 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string-width' ]
+331 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string-width-cjs' ]
+332 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/strip-ansi-cjs' ]
+333 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/strip-hex-prefix' ]
+334 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/strip-json-comments' ]
+335 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/supports-color' ]
+336 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/table' ]
+337 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/table-layout' ]
+338 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/through2' ]
+339 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/to-buffer' ]
+340 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/to-regex-range' ]
+341 silly reify mark retired [
+341 silly reify   '/data/data/com.termux/files/home/node_modules/ts-command-line-args',
+341 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/write-markdown'
+341 silly reify ]
+342 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ts-essentials' ]
+343 silly reify mark retired [
+343 silly reify   '/data/data/com.termux/files/home/node_modules/ts-node',
+343 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node',
+343 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-cwd',
+343 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-esm',
+343 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-script',
+343 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-transpile-only',
+343 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-script'
+343 silly reify ]
+344 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tslib' ]
+345 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/type-check' ]
+346 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/type-detect' ]
+347 silly reify mark retired [
+347 silly reify   '/data/data/com.termux/files/home/node_modules/typechain',
+347 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/typechain'
+347 silly reify ]
+348 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/typed-array-buffer' ]
+349 silly reify mark retired [
+349 silly reify   '/data/data/com.termux/files/home/node_modules/typescript',
+349 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tsc',
+349 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tsserver'
+349 silly reify ]
+350 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/typical' ]
+351 silly reify mark retired [
+351 silly reify   '/data/data/com.termux/files/home/node_modules/uglify-js',
+351 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/uglifyjs'
+351 silly reify ]
+352 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/undici-types' ]
+353 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/universalify' ]
+354 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/utf8' ]
+355 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/util-deprecate' ]
+356 silly reify mark retired [
+356 silly reify   '/data/data/com.termux/files/home/node_modules/v8-compile-cache-lib'
+356 silly reify ]
+357 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/viem' ]
+358 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/web3-utils' ]
+359 silly reify mark retired [
+359 silly reify   '/data/data/com.termux/files/home/node_modules/which',
+359 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-which'
+359 silly reify ]
+360 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/which-typed-array' ]
+361 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/word-wrap' ]
+362 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wordwrap' ]
+363 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wordwrapjs' ]
+364 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/workerpool' ]
+365 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wrap-ansi' ]
+366 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wrap-ansi-cjs' ]
+367 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wrappy' ]
+368 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/y18n' ]
+369 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs' ]
+370 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs-parser' ]
+371 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs-unparser' ]
+372 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yn' ]
+373 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yocto-queue' ]
+374 silly reify moves {
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@adraffy/ens-normalize': '/data/data/com.termux/files/home/node_modules/@adraffy/.ens-normalize-qiVgfNkX',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@colors/colors': '/data/data/com.termux/files/home/node_modules/@colors/.colors-XZYxKDxv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@cspotcode/source-map-support': '/data/data/com.termux/files/home/node_modules/@cspotcode/.source-map-support-GeL2tzLn',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethereumjs/rlp': '/data/data/com.termux/files/home/node_modules/@ethereumjs/.rlp-JdetGNsy',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/rlp': '/data/data/com.termux/files/home/node_modules/.bin/.rlp-mHK1UJpz',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethereumjs/util': '/data/data/com.termux/files/home/node_modules/@ethereumjs/.util-U0w9qUJi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/abi': '/data/data/com.termux/files/home/node_modules/@ethersproject/.abi-PFQtPH5w',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/abstract-provider': '/data/data/com.termux/files/home/node_modules/@ethersproject/.abstract-provider-H0y9oByy',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/abstract-signer': '/data/data/com.termux/files/home/node_modules/@ethersproject/.abstract-signer-ipUVH3I2',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/address': '/data/data/com.termux/files/home/node_modules/@ethersproject/.address-oQEycCC2',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/base64': '/data/data/com.termux/files/home/node_modules/@ethersproject/.base64-CmOZbVw1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/bignumber': '/data/data/com.termux/files/home/node_modules/@ethersproject/.bignumber-SJE1Lvxu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/bytes': '/data/data/com.termux/files/home/node_modules/@ethersproject/.bytes-FzavjHir',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/constants': '/data/data/com.termux/files/home/node_modules/@ethersproject/.constants-ssJq5pHN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/hash': '/data/data/com.termux/files/home/node_modules/@ethersproject/.hash-CSVMKQg1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/keccak256': '/data/data/com.termux/files/home/node_modules/@ethersproject/.keccak256-QEubTxQ4',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/logger': '/data/data/com.termux/files/home/node_modules/@ethersproject/.logger-tpoNDfDB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/networks': '/data/data/com.termux/files/home/node_modules/@ethersproject/.networks-dShr0F0o',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/properties': '/data/data/com.termux/files/home/node_modules/@ethersproject/.properties-iI7kygcN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/rlp': '/data/data/com.termux/files/home/node_modules/@ethersproject/.rlp-cwrv2qqe',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/signing-key': '/data/data/com.termux/files/home/node_modules/@ethersproject/.signing-key-Z33OEGNp',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/strings': '/data/data/com.termux/files/home/node_modules/@ethersproject/.strings-SWQ2Ks7V',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/transactions': '/data/data/com.termux/files/home/node_modules/@ethersproject/.transactions-QN2MDOGs',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/units': '/data/data/com.termux/files/home/node_modules/@ethersproject/.units-dJPhNAEk',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@ethersproject/web': '/data/data/com.termux/files/home/node_modules/@ethersproject/.web-ZVs9i9eB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@fastify/busboy': '/data/data/com.termux/files/home/node_modules/@fastify/.busboy-jb4WmFFt',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@isaacs/cliui': '/data/data/com.termux/files/home/node_modules/@isaacs/.cliui-wogfREt4',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@jridgewell/resolve-uri': '/data/data/com.termux/files/home/node_modules/@jridgewell/.resolve-uri-GDuFgpF5',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@jridgewell/sourcemap-codec': '/data/data/com.termux/files/home/node_modules/@jridgewell/.sourcemap-codec-ZaIprS7T',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@jridgewell/trace-mapping': '/data/data/com.termux/files/home/node_modules/@jridgewell/.trace-mapping-Xxbbay3l',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@noble/ciphers': '/data/data/com.termux/files/home/node_modules/@noble/.ciphers-7QMlNc0F',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nodelib/fs.scandir': '/data/data/com.termux/files/home/node_modules/@nodelib/.fs.scandir-1dGrkTZr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nodelib/fs.stat': '/data/data/com.termux/files/home/node_modules/@nodelib/.fs.stat-lsjL0jjR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nodelib/fs.walk': '/data/data/com.termux/files/home/node_modules/@nodelib/.fs.walk-iLi8kZTY',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-chai-matchers': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.hardhat-chai-matchers-59VfdmHu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-ethers': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.hardhat-ethers-dgX8Y0h1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-ignition': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.hardhat-ignition-lEMMpoo0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-ignition-ethers': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.hardhat-ignition-ethers-xaTJDX6d',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-network-helpers': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.hardhat-network-helpers-327Hkeys',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/hardhat-verify': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.hardhat-verify-PHtJKLAs',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/ignition-core': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.ignition-core-e1Nqjx5I',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@nomicfoundation/ignition-ui': '/data/data/com.termux/files/home/node_modules/@nomicfoundation/.ignition-ui-dJXmE65v',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@pkgjs/parseargs': '/data/data/com.termux/files/home/node_modules/@pkgjs/.parseargs-5NdwgDwT',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@solidity-parser/parser': '/data/data/com.termux/files/home/node_modules/@solidity-parser/.parser-kUtfCHy1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@tsconfig/node10': '/data/data/com.termux/files/home/node_modules/@tsconfig/.node10-EGz4cAf3',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@tsconfig/node12': '/data/data/com.termux/files/home/node_modules/@tsconfig/.node12-zbnJvGPB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@tsconfig/node14': '/data/data/com.termux/files/home/node_modules/@tsconfig/.node14-u9nJr1RC',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@tsconfig/node16': '/data/data/com.termux/files/home/node_modules/@tsconfig/.node16-S0bBApHc',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@typechain/ethers-v6': '/data/data/com.termux/files/home/node_modules/@typechain/.ethers-v6-I0ZinntY',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@typechain/hardhat': '/data/data/com.termux/files/home/node_modules/@typechain/.hardhat-1whrd6HV',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/bn.js': '/data/data/com.termux/files/home/node_modules/@types/.bn.js-8TgsnQyU',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/chai': '/data/data/com.termux/files/home/node_modules/@types/.chai-tWp6FAnB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/chai-as-promised': '/data/data/com.termux/files/home/node_modules/@types/.chai-as-promised-gCnzhkml',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/glob': '/data/data/com.termux/files/home/node_modules/@types/.glob-lT0JhPUO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/minimatch': '/data/data/com.termux/files/home/node_modules/@types/.minimatch-2BUsQIEo',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/mocha': '/data/data/com.termux/files/home/node_modules/@types/.mocha-TRKPY8NN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/node': '/data/data/com.termux/files/home/node_modules/@types/.node-ImvShB6u',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/pbkdf2': '/data/data/com.termux/files/home/node_modules/@types/.pbkdf2-812cKYD0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/prettier': '/data/data/com.termux/files/home/node_modules/@types/.prettier-ki8RAM3l',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/@types/secp256k1': '/data/data/com.termux/files/home/node_modules/@types/.secp256k1-x26oHJ4Y',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/abbrev': '/data/data/com.termux/files/home/node_modules/.abbrev-aUjRol39',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/abitype': '/data/data/com.termux/files/home/node_modules/.abitype-wiG3wmHb',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/acorn': '/data/data/com.termux/files/home/node_modules/.acorn-RuWOJ2bL',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/acorn': '/data/data/com.termux/files/home/node_modules/.bin/.acorn-zVFjxegC',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/acorn-walk': '/data/data/com.termux/files/home/node_modules/.acorn-walk-DcFNIihM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/aes-js': '/data/data/com.termux/files/home/node_modules/.aes-js-9Zgr9lYP',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ajv': '/data/data/com.termux/files/home/node_modules/.ajv-1hO44SRO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/amdefine': '/data/data/com.termux/files/home/node_modules/.amdefine-dP3eykhS',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ansi-styles': '/data/data/com.termux/files/home/node_modules/.ansi-styles-RPQb6dFf',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/anymatch': '/data/data/com.termux/files/home/node_modules/.anymatch-aZjAPHaA',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/arg': '/data/data/com.termux/files/home/node_modules/.arg-Q9C6z3xi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/argparse': '/data/data/com.termux/files/home/node_modules/.argparse-pjZtGPVw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/array-back': '/data/data/com.termux/files/home/node_modules/.array-back-L0wwesg4',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/array-union': '/data/data/com.termux/files/home/node_modules/.array-union-CX2IYWJ9',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/assertion-error': '/data/data/com.termux/files/home/node_modules/.assertion-error-FmjT5bBl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/astral-regex': '/data/data/com.termux/files/home/node_modules/.astral-regex-R4qhZ1E5',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/async': '/data/data/com.termux/files/home/node_modules/.async-XSlcRXdk',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/asynckit': '/data/data/com.termux/files/home/node_modules/.asynckit-lNiUE80q',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/at-least-node': '/data/data/com.termux/files/home/node_modules/.at-least-node-eaJoKSet',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/available-typed-arrays': '/data/data/com.termux/files/home/node_modules/.available-typed-arrays-Np9XVgEH',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/axios': '/data/data/com.termux/files/home/node_modules/.axios-vJLmXTjc',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/balanced-match': '/data/data/com.termux/files/home/node_modules/.balanced-match-ioCd1OxR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/base-x': '/data/data/com.termux/files/home/node_modules/.base-x-ZdrSOfaj',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/binary-extensions': '/data/data/com.termux/files/home/node_modules/.binary-extensions-gxCD2g87',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/blakejs': '/data/data/com.termux/files/home/node_modules/.blakejs-1rVE30dL',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/bn.js': '/data/data/com.termux/files/home/node_modules/.bn.js-JbDttFDV',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/brace-expansion': '/data/data/com.termux/files/home/node_modules/.brace-expansion-nt5pCwIY',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/braces': '/data/data/com.termux/files/home/node_modules/.braces-qzYCjDGu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/brorand': '/data/data/com.termux/files/home/node_modules/.brorand-ML1Qhf2S',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/brotli-wasm': '/data/data/com.termux/files/home/node_modules/.brotli-wasm-KnqydYaZ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/browser-stdout': '/data/data/com.termux/files/home/node_modules/.browser-stdout-LdMq4xeQ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/browserify-aes': '/data/data/com.termux/files/home/node_modules/.browserify-aes-5s0iQ2iZ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/bs58': '/data/data/com.termux/files/home/node_modules/.bs58-U43P0dDx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/bs58check': '/data/data/com.termux/files/home/node_modules/.bs58check-VlIO6taz',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/buffer-xor': '/data/data/com.termux/files/home/node_modules/.buffer-xor-VHJx43EJ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/call-bind': '/data/data/com.termux/files/home/node_modules/.call-bind-uNNOHxp8',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/call-bind-apply-helpers': '/data/data/com.termux/files/home/node_modules/.call-bind-apply-helpers-t4WTzyoc',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/call-bound': '/data/data/com.termux/files/home/node_modules/.call-bound-P3Q5TNEi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/camelcase': '/data/data/com.termux/files/home/node_modules/.camelcase-AX9tp5le',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/cbor': '/data/data/com.termux/files/home/node_modules/.cbor-PGAEm896',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/chai': '/data/data/com.termux/files/home/node_modules/.chai-GnsS5uCl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/chai-as-promised': '/data/data/com.termux/files/home/node_modules/.chai-as-promised-5BtWLILr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/charenc': '/data/data/com.termux/files/home/node_modules/.charenc-zygEJsKG',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/check-error': '/data/data/com.termux/files/home/node_modules/.check-error-RbPx16lR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/cipher-base': '/data/data/com.termux/files/home/node_modules/.cipher-base-zJQCAJAF',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/cli-table3': '/data/data/com.termux/files/home/node_modules/.cli-table3-wtHjnJHv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/cliui': '/data/data/com.termux/files/home/node_modules/.cliui-os1roM22',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/color-convert': '/data/data/com.termux/files/home/node_modules/.color-convert-8bcE6J64',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/color-name': '/data/data/com.termux/files/home/node_modules/.color-name-KbtdJY8Z',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/combined-stream': '/data/data/com.termux/files/home/node_modules/.combined-stream-jzwv12di',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/command-line-args': '/data/data/com.termux/files/home/node_modules/.command-line-args-5eawYCh0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/command-line-usage': '/data/data/com.termux/files/home/node_modules/.command-line-usage-NWakz9MX',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/concat-map': '/data/data/com.termux/files/home/node_modules/.concat-map-LZ1KUyZq',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/core-util-is': '/data/data/com.termux/files/home/node_modules/.core-util-is-NYqnvQf7',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/create-hash': '/data/data/com.termux/files/home/node_modules/.create-hash-1FZMokLp',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/create-hmac': '/data/data/com.termux/files/home/node_modules/.create-hmac-pqv1XcDU',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/create-require': '/data/data/com.termux/files/home/node_modules/.create-require-N8h8AaSP',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/cross-spawn': '/data/data/com.termux/files/home/node_modules/.cross-spawn-pGEKKcmO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/crypt': '/data/data/com.termux/files/home/node_modules/.crypt-8NYxU4Fw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/death': '/data/data/com.termux/files/home/node_modules/.death-35SO8NdF',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/decamelize': '/data/data/com.termux/files/home/node_modules/.decamelize-mTuu2Bxt',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/deep-eql': '/data/data/com.termux/files/home/node_modules/.deep-eql-MjJxUdjk',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/deep-extend': '/data/data/com.termux/files/home/node_modules/.deep-extend-9gsOTozv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/deep-is': '/data/data/com.termux/files/home/node_modules/.deep-is-ZA9QjdVr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/define-data-property': '/data/data/com.termux/files/home/node_modules/.define-data-property-gTzbRm8h',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/delayed-stream': '/data/data/com.termux/files/home/node_modules/.delayed-stream-pV0pOHZ6',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/diff': '/data/data/com.termux/files/home/node_modules/.diff-rTRvgGcN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/difflib': '/data/data/com.termux/files/home/node_modules/.difflib-Qg8nosuO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/dir-glob': '/data/data/com.termux/files/home/node_modules/.dir-glob-Z5Q3QPei',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/dunder-proto': '/data/data/com.termux/files/home/node_modules/.dunder-proto-xJsX1d1L',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/eastasianwidth': '/data/data/com.termux/files/home/node_modules/.eastasianwidth-PSRXVuTy',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/elliptic': '/data/data/com.termux/files/home/node_modules/.elliptic-rb8HmurX',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/emoji-regex': '/data/data/com.termux/files/home/node_modules/.emoji-regex-39YmuHg0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/es-define-property': '/data/data/com.termux/files/home/node_modules/.es-define-property-R0tWN4Xx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/es-errors': '/data/data/com.termux/files/home/node_modules/.es-errors-fJozAEp8',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/es-object-atoms': '/data/data/com.termux/files/home/node_modules/.es-object-atoms-OrDhhCWl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/es-set-tostringtag': '/data/data/com.termux/files/home/node_modules/.es-set-tostringtag-L9h2Zy42',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/escalade': '/data/data/com.termux/files/home/node_modules/.escalade-5c7tMdxd',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/escape-string-regexp': '/data/data/com.termux/files/home/node_modules/.escape-string-regexp-LnhRUGOM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/escodegen': '/data/data/com.termux/files/home/node_modules/.escodegen-WhELuknq',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/escodegen': '/data/data/com.termux/files/home/node_modules/.bin/.escodegen-zQT6vUzR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/esgenerate': '/data/data/com.termux/files/home/node_modules/.bin/.esgenerate-MRWo4NBu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/esprima': '/data/data/com.termux/files/home/node_modules/.esprima-NyU7Gdrq',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/esparse': '/data/data/com.termux/files/home/node_modules/.bin/.esparse-4iiZV4mq',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/esvalidate': '/data/data/com.termux/files/home/node_modules/.bin/.esvalidate-N0LfqJ5G',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/estraverse': '/data/data/com.termux/files/home/node_modules/.estraverse-Q9FhfIFK',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/esutils': '/data/data/com.termux/files/home/node_modules/.esutils-Xp4iwegc',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ethereum-bloom-filters': '/data/data/com.termux/files/home/node_modules/.ethereum-bloom-filters-wTyh1d2W',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ethereumjs-util': '/data/data/com.termux/files/home/node_modules/.ethereumjs-util-m09ke119',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ethers': '/data/data/com.termux/files/home/node_modules/.ethers-bbeu9cLl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ethjs-unit': '/data/data/com.termux/files/home/node_modules/.ethjs-unit-ey2NWQwo',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/eventemitter3': '/data/data/com.termux/files/home/node_modules/.eventemitter3-X0EbHSwx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/evp_bytestokey': '/data/data/com.termux/files/home/node_modules/.evp_bytestokey-BJRnuOzJ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fast-deep-equal': '/data/data/com.termux/files/home/node_modules/.fast-deep-equal-gcuwdiSS',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fast-glob': '/data/data/com.termux/files/home/node_modules/.fast-glob-KqQg5IdU',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fast-levenshtein': '/data/data/com.termux/files/home/node_modules/.fast-levenshtein-N2HQxTLx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fast-uri': '/data/data/com.termux/files/home/node_modules/.fast-uri-mQSE5lAX',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fastq': '/data/data/com.termux/files/home/node_modules/.fastq-yp9oyQ5X',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fill-range': '/data/data/com.termux/files/home/node_modules/.fill-range-PyOrHmlG',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/find-replace': '/data/data/com.termux/files/home/node_modules/.find-replace-gqeh3KpV',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/find-up': '/data/data/com.termux/files/home/node_modules/.find-up-BxmoIHi7',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/flat': '/data/data/com.termux/files/home/node_modules/.flat-jndhdnwH',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/flat': '/data/data/com.termux/files/home/node_modules/.bin/.flat-dSPrR3Dh',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/follow-redirects': '/data/data/com.termux/files/home/node_modules/.follow-redirects-0PkswIHf',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/for-each': '/data/data/com.termux/files/home/node_modules/.for-each-YNN4v7s7',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/foreground-child': '/data/data/com.termux/files/home/node_modules/.foreground-child-VImgAIdB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/form-data': '/data/data/com.termux/files/home/node_modules/.form-data-C8BxHCcz',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fs-extra': '/data/data/com.termux/files/home/node_modules/.fs-extra-iGCDBzWf',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/fs.realpath': '/data/data/com.termux/files/home/node_modules/.fs.realpath-ASaur2Ss',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/function-bind': '/data/data/com.termux/files/home/node_modules/.function-bind-mG22eVRd',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/get-caller-file': '/data/data/com.termux/files/home/node_modules/.get-caller-file-etQa4bjF',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/get-func-name': '/data/data/com.termux/files/home/node_modules/.get-func-name-XcI2BkF1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/get-intrinsic': '/data/data/com.termux/files/home/node_modules/.get-intrinsic-cE7LRW89',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/get-proto': '/data/data/com.termux/files/home/node_modules/.get-proto-5CxJLIDf',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ghost-testrpc': '/data/data/com.termux/files/home/node_modules/.ghost-testrpc-gVnMoyQu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/testrpc-sc': '/data/data/com.termux/files/home/node_modules/.bin/.testrpc-sc-sM2pqqrI',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/glob': '/data/data/com.termux/files/home/node_modules/.glob-9dqMWBWt',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/glob': '/data/data/com.termux/files/home/node_modules/.bin/.glob-Ywu6F9hO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/glob-parent': '/data/data/com.termux/files/home/node_modules/.glob-parent-k6PT90eE',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/global-modules': '/data/data/com.termux/files/home/node_modules/.global-modules-FcGjWXbi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/global-prefix': '/data/data/com.termux/files/home/node_modules/.global-prefix-n417AZXd',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/globby': '/data/data/com.termux/files/home/node_modules/.globby-u37POWp8',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/gopd': '/data/data/com.termux/files/home/node_modules/.gopd-nv8i6TfO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/graceful-fs': '/data/data/com.termux/files/home/node_modules/.graceful-fs-g33HUP82',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/handlebars': '/data/data/com.termux/files/home/node_modules/.handlebars-wrnBVf2E',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/handlebars': '/data/data/com.termux/files/home/node_modules/.bin/.handlebars-ulYThM5C',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/hardhat-gas-reporter': '/data/data/com.termux/files/home/node_modules/.hardhat-gas-reporter-cJEvnKRm',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/has-flag': '/data/data/com.termux/files/home/node_modules/.has-flag-tlC8Sgdw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/has-property-descriptors': '/data/data/com.termux/files/home/node_modules/.has-property-descriptors-PpRpVKdh',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/has-symbols': '/data/data/com.termux/files/home/node_modules/.has-symbols-JfGc5lzw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/has-tostringtag': '/data/data/com.termux/files/home/node_modules/.has-tostringtag-oh2K1y3S',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/hash-base': '/data/data/com.termux/files/home/node_modules/.hash-base-CgyOPhAm',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/hash.js': '/data/data/com.termux/files/home/node_modules/.hash.js-MV0Jk5Bw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/hasown': '/data/data/com.termux/files/home/node_modules/.hasown-QbZYwwUe',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/he': '/data/data/com.termux/files/home/node_modules/.he-NGWaUxYp',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/he': '/data/data/com.termux/files/home/node_modules/.bin/.he-c8twu4ml',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/heap': '/data/data/com.termux/files/home/node_modules/.heap-6sRl4bba',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/hmac-drbg': '/data/data/com.termux/files/home/node_modules/.hmac-drbg-0E3jEiwK',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ignore': '/data/data/com.termux/files/home/node_modules/.ignore-NRPmJPOH',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/immer': '/data/data/com.termux/files/home/node_modules/.immer-p4Us8Dgn',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/inflight': '/data/data/com.termux/files/home/node_modules/.inflight-9v2MiTuX',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/inherits': '/data/data/com.termux/files/home/node_modules/.inherits-jKD05L0h',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ini': '/data/data/com.termux/files/home/node_modules/.ini-kTtefLgp',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/interpret': '/data/data/com.termux/files/home/node_modules/.interpret-leempxDl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-binary-path': '/data/data/com.termux/files/home/node_modules/.is-binary-path-kHNhun9h',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-callable': '/data/data/com.termux/files/home/node_modules/.is-callable-nUVOOxz4',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-extglob': '/data/data/com.termux/files/home/node_modules/.is-extglob-B5Wygb3s',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-fullwidth-code-point': '/data/data/com.termux/files/home/node_modules/.is-fullwidth-code-point-Yp4s1AgM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-glob': '/data/data/com.termux/files/home/node_modules/.is-glob-hw4HQgfL',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-hex-prefixed': '/data/data/com.termux/files/home/node_modules/.is-hex-prefixed-gIBbC24I',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-number': '/data/data/com.termux/files/home/node_modules/.is-number-7ZmRwQKA',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-plain-obj': '/data/data/com.termux/files/home/node_modules/.is-plain-obj-9ARmDJsm',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-typed-array': '/data/data/com.termux/files/home/node_modules/.is-typed-array-2lC7oFLG',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/is-unicode-supported': '/data/data/com.termux/files/home/node_modules/.is-unicode-supported-TlPkc9jR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/isarray': '/data/data/com.termux/files/home/node_modules/.isarray-LBaDReer',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/isexe': '/data/data/com.termux/files/home/node_modules/.isexe-AyQz7VA0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/isows': '/data/data/com.termux/files/home/node_modules/.isows-ippTlTqD',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/jackspeak': '/data/data/com.termux/files/home/node_modules/.jackspeak-8qK1OS4Q',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/js-sha3': '/data/data/com.termux/files/home/node_modules/.js-sha3-Dgg0kWIS',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/js-yaml': '/data/data/com.termux/files/home/node_modules/.js-yaml-Ee1HANlR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/js-yaml': '/data/data/com.termux/files/home/node_modules/.bin/.js-yaml-AZ9N4s1x',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/json-schema-traverse': '/data/data/com.termux/files/home/node_modules/.json-schema-traverse-4imVymL9',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/json-stringify-safe': '/data/data/com.termux/files/home/node_modules/.json-stringify-safe-IhfEYqz3',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/json5': '/data/data/com.termux/files/home/node_modules/.json5-iDQpol0Y',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/json5': '/data/data/com.termux/files/home/node_modules/.bin/.json5-U0MOaiwC',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/jsonfile': '/data/data/com.termux/files/home/node_modules/.jsonfile-qdmc7Aib',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/jsonschema': '/data/data/com.termux/files/home/node_modules/.jsonschema-InpeP1F1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/keccak': '/data/data/com.termux/files/home/node_modules/.keccak-eKI4VY51',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/kind-of': '/data/data/com.termux/files/home/node_modules/.kind-of-J7PEvCrO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/kleur': '/data/data/com.termux/files/home/node_modules/.kleur-ayvyG0tR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/levn': '/data/data/com.termux/files/home/node_modules/.levn-jSKXNb2p',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/locate-path': '/data/data/com.termux/files/home/node_modules/.locate-path-2AS8oLcG',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/lodash': '/data/data/com.termux/files/home/node_modules/.lodash-pmAInmCR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/lodash.camelcase': '/data/data/com.termux/files/home/node_modules/.lodash.camelcase-9LXkmG8b',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/lodash.clonedeep': '/data/data/com.termux/files/home/node_modules/.lodash.clonedeep-7ITBQxL8',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/lodash.isequal': '/data/data/com.termux/files/home/node_modules/.lodash.isequal-Ukg9GcRs',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/lodash.truncate': '/data/data/com.termux/files/home/node_modules/.lodash.truncate-EEXJCF3f',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/log-symbols': '/data/data/com.termux/files/home/node_modules/.log-symbols-Tvg0fcEY',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/loupe': '/data/data/com.termux/files/home/node_modules/.loupe-Ilf90RMv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/lru-cache': '/data/data/com.termux/files/home/node_modules/.lru-cache-4QoNq3cE',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/make-error': '/data/data/com.termux/files/home/node_modules/.make-error-oQ47SASN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/markdown-table': '/data/data/com.termux/files/home/node_modules/.markdown-table-IMH5XL9t',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/math-intrinsics': '/data/data/com.termux/files/home/node_modules/.math-intrinsics-rhLJyOuw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/md5.js': '/data/data/com.termux/files/home/node_modules/.md5.js-gtvfDVkc',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/merge2': '/data/data/com.termux/files/home/node_modules/.merge2-RhzPBrfF',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/micro-ftch': '/data/data/com.termux/files/home/node_modules/.micro-ftch-adAIyaE2',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/micromatch': '/data/data/com.termux/files/home/node_modules/.micromatch-prEMCaHN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/mime-db': '/data/data/com.termux/files/home/node_modules/.mime-db-bUZek4xA',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/mime-types': '/data/data/com.termux/files/home/node_modules/.mime-types-j4DVvKCN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/minimalistic-assert': '/data/data/com.termux/files/home/node_modules/.minimalistic-assert-gukSaXg6',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/minimalistic-crypto-utils': '/data/data/com.termux/files/home/node_modules/.minimalistic-crypto-utils-nbAKOVIr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/minimatch': '/data/data/com.termux/files/home/node_modules/.minimatch-znduohYh',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/minimist': '/data/data/com.termux/files/home/node_modules/.minimist-To6Tct78',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/minipass': '/data/data/com.termux/files/home/node_modules/.minipass-g9KBnft8',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/mkdirp': '/data/data/com.termux/files/home/node_modules/.mkdirp-BoVHScqz',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/mkdirp': '/data/data/com.termux/files/home/node_modules/.bin/.mkdirp-Tc74RN30',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/mocha': '/data/data/com.termux/files/home/node_modules/.mocha-gNsUQ3xB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/_mocha': '/data/data/com.termux/files/home/node_modules/.bin/._mocha-4aHgpoZa',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/mocha': '/data/data/com.termux/files/home/node_modules/.bin/.mocha-bVCFeoGM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ndjson': '/data/data/com.termux/files/home/node_modules/.ndjson-4SQUjcJG',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ndjson': '/data/data/com.termux/files/home/node_modules/.bin/.ndjson-SQKgeogD',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/neo-async': '/data/data/com.termux/files/home/node_modules/.neo-async-1bJwvUxC',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/node-addon-api': '/data/data/com.termux/files/home/node_modules/.node-addon-api-BxXZlqYS',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/node-emoji': '/data/data/com.termux/files/home/node_modules/.node-emoji-UFoEDwJ4',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/node-gyp-build': '/data/data/com.termux/files/home/node_modules/.node-gyp-build-GsAsIixs',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-gyp-build': '/data/data/com.termux/files/home/node_modules/.bin/.node-gyp-build-3hTaygXl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-gyp-build-optional': '/data/data/com.termux/files/home/node_modules/.bin/.node-gyp-build-optional-I4ePUwO6',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-gyp-build-test': '/data/data/com.termux/files/home/node_modules/.bin/.node-gyp-build-test-cHUf6JPV',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/nofilter': '/data/data/com.termux/files/home/node_modules/.nofilter-u0VXlwhG',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/nopt': '/data/data/com.termux/files/home/node_modules/.nopt-zfjb6Vfl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/nopt': '/data/data/com.termux/files/home/node_modules/.bin/.nopt-qOpnDk2U',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/normalize-path': '/data/data/com.termux/files/home/node_modules/.normalize-path-xRKHoInx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/number-to-bn': '/data/data/com.termux/files/home/node_modules/.number-to-bn-VbKejNUr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/once': '/data/data/com.termux/files/home/node_modules/.once-8HP7pnjY',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/optionator': '/data/data/com.termux/files/home/node_modules/.optionator-upwExGYh',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ordinal': '/data/data/com.termux/files/home/node_modules/.ordinal-aGHhYrC8',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ox': '/data/data/com.termux/files/home/node_modules/.ox-ZWx8Wlvu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/p-limit': '/data/data/com.termux/files/home/node_modules/.p-limit-iWMbJReO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/p-locate': '/data/data/com.termux/files/home/node_modules/.p-locate-KkO9RuTl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/package-json-from-dist': '/data/data/com.termux/files/home/node_modules/.package-json-from-dist-kqTuBGqi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/path-exists': '/data/data/com.termux/files/home/node_modules/.path-exists-VVTt7tws',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/path-is-absolute': '/data/data/com.termux/files/home/node_modules/.path-is-absolute-jLBAUwx7',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/path-key': '/data/data/com.termux/files/home/node_modules/.path-key-VDIs7B7K',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/path-scurry': '/data/data/com.termux/files/home/node_modules/.path-scurry-gPoTfuOe',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/path-type': '/data/data/com.termux/files/home/node_modules/.path-type-TttIGKEy',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/pathval': '/data/data/com.termux/files/home/node_modules/.pathval-jXu55oGM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/pbkdf2': '/data/data/com.termux/files/home/node_modules/.pbkdf2-pZEB5g7Q',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/picocolors': '/data/data/com.termux/files/home/node_modules/.picocolors-DMaWy8DP',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/picomatch': '/data/data/com.termux/files/home/node_modules/.picomatch-2yvLP97p',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/pify': '/data/data/com.termux/files/home/node_modules/.pify-e2zIX2RM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/possible-typed-array-names': '/data/data/com.termux/files/home/node_modules/.possible-typed-array-names-WtW9G5PN',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/prelude-ls': '/data/data/com.termux/files/home/node_modules/.prelude-ls-lDeQXdBq',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/prettier': '/data/data/com.termux/files/home/node_modules/.prettier-VRbVAdXq',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/prettier': '/data/data/com.termux/files/home/node_modules/.bin/.prettier-nyBNfhnT',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/process-nextick-args': '/data/data/com.termux/files/home/node_modules/.process-nextick-args-inn7Ge8D',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/prompts': '/data/data/com.termux/files/home/node_modules/.prompts-VYPxKrnk',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/proxy-from-env': '/data/data/com.termux/files/home/node_modules/.proxy-from-env-b8qTVuZ0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/queue-microtask': '/data/data/com.termux/files/home/node_modules/.queue-microtask-d0owdq5I',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/randombytes': '/data/data/com.termux/files/home/node_modules/.randombytes-MUYZyApY',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/readable-stream': '/data/data/com.termux/files/home/node_modules/.readable-stream-X9MXXje1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/rechoir': '/data/data/com.termux/files/home/node_modules/.rechoir-B24X0Rmi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/recursive-readdir': '/data/data/com.termux/files/home/node_modules/.recursive-readdir-w7Br2GRk',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/reduce-flatten': '/data/data/com.termux/files/home/node_modules/.reduce-flatten-wZgIXinr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/repeat-string': '/data/data/com.termux/files/home/node_modules/.repeat-string-u2OawK8n',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/require-directory': '/data/data/com.termux/files/home/node_modules/.require-directory-aUlegYeH',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/require-from-string': '/data/data/com.termux/files/home/node_modules/.require-from-string-GbUgfWVw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/resolve': '/data/data/com.termux/files/home/node_modules/.resolve-wsvwO6to',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/reusify': '/data/data/com.termux/files/home/node_modules/.reusify-qXXPCxa5',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ripemd160': '/data/data/com.termux/files/home/node_modules/.ripemd160-fzFnjOqR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/rlp': '/data/data/com.termux/files/home/node_modules/.rlp-wZeCp9OM',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/run-parallel': '/data/data/com.termux/files/home/node_modules/.run-parallel-YT8NXYjs',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/safe-buffer': '/data/data/com.termux/files/home/node_modules/.safe-buffer-9HH6LKLQ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/sc-istanbul': '/data/data/com.termux/files/home/node_modules/.sc-istanbul-MeQXf0zr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/istanbul': '/data/data/com.termux/files/home/node_modules/.bin/.istanbul-E6ueBccu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/scrypt-js': '/data/data/com.termux/files/home/node_modules/.scrypt-js-htJLuIB7',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/secp256k1': '/data/data/com.termux/files/home/node_modules/.secp256k1-HHGjX7Jv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/serialize-javascript': '/data/data/com.termux/files/home/node_modules/.serialize-javascript-Fxwc7y2F',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/set-function-length': '/data/data/com.termux/files/home/node_modules/.set-function-length-JXn8Yf1H',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/setimmediate': '/data/data/com.termux/files/home/node_modules/.setimmediate-ZeFTjIlm',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/sha.js': '/data/data/com.termux/files/home/node_modules/.sha.js-AtiJQ7n6',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/sha.js': '/data/data/com.termux/files/home/node_modules/.bin/.sha.js-2wQ3G1je',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/sha1': '/data/data/com.termux/files/home/node_modules/.sha1-MGQztSi0',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/shebang-command': '/data/data/com.termux/files/home/node_modules/.shebang-command-szYuPGH7',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/shebang-regex': '/data/data/com.termux/files/home/node_modules/.shebang-regex-SFCxRv0G',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/shelljs': '/data/data/com.termux/files/home/node_modules/.shelljs-xQthOWFp',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/shjs': '/data/data/com.termux/files/home/node_modules/.bin/.shjs-RrVtopI9',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/signal-exit': '/data/data/com.termux/files/home/node_modules/.signal-exit-pP8w0E9s',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/sisteransi': '/data/data/com.termux/files/home/node_modules/.sisteransi-UoddjPiT',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/slash': '/data/data/com.termux/files/home/node_modules/.slash-7ENWQ501',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/slice-ansi': '/data/data/com.termux/files/home/node_modules/.slice-ansi-Eh3SHwUD',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/solidity-coverage': '/data/data/com.termux/files/home/node_modules/.solidity-coverage-dbruOxNg',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/solidity-coverage': '/data/data/com.termux/files/home/node_modules/.bin/.solidity-coverage-JEv74dVi',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/source-map': '/data/data/com.termux/files/home/node_modules/.source-map-rjf3aPKr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/split2': '/data/data/com.termux/files/home/node_modules/.split2-j2Zo1PcP',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/sprintf-js': '/data/data/com.termux/files/home/node_modules/.sprintf-js-aY31qh67',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/string_decoder': '/data/data/com.termux/files/home/node_modules/.string_decoder-ZF9Q6CPD',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/string-format': '/data/data/com.termux/files/home/node_modules/.string-format-M38V7Uq1',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/string-width': '/data/data/com.termux/files/home/node_modules/.string-width-QZtz2YOB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/string-width-cjs': '/data/data/com.termux/files/home/node_modules/.string-width-cjs-6EXvw4Rb',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/strip-ansi-cjs': '/data/data/com.termux/files/home/node_modules/.strip-ansi-cjs-XYUzFDCV',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/strip-hex-prefix': '/data/data/com.termux/files/home/node_modules/.strip-hex-prefix-Xi0aQ0hx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/strip-json-comments': '/data/data/com.termux/files/home/node_modules/.strip-json-comments-cZrNWBLj',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/supports-color': '/data/data/com.termux/files/home/node_modules/.supports-color-WOQDG9kR',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/table': '/data/data/com.termux/files/home/node_modules/.table-NzLCTM0w',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/table-layout': '/data/data/com.termux/files/home/node_modules/.table-layout-WR3T4VWm',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/through2': '/data/data/com.termux/files/home/node_modules/.through2-YFz6zmWO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/to-buffer': '/data/data/com.termux/files/home/node_modules/.to-buffer-kVHZUv9F',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/to-regex-range': '/data/data/com.termux/files/home/node_modules/.to-regex-range-4Kf6KUwv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ts-command-line-args': '/data/data/com.termux/files/home/node_modules/.ts-command-line-args-IT85sV0B',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/write-markdown': '/data/data/com.termux/files/home/node_modules/.bin/.write-markdown-yEEJRubO',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ts-essentials': '/data/data/com.termux/files/home/node_modules/.ts-essentials-FLj9msB9',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/ts-node': '/data/data/com.termux/files/home/node_modules/.ts-node-JW1Pgmdl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node': '/data/data/com.termux/files/home/node_modules/.bin/.ts-node-RINgQY7I',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-cwd': '/data/data/com.termux/files/home/node_modules/.bin/.ts-node-cwd-QG0TdrlB',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-esm': '/data/data/com.termux/files/home/node_modules/.bin/.ts-node-esm-SpEwLo6U',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-script': '/data/data/com.termux/files/home/node_modules/.bin/.ts-node-script-PPJO4mmL',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-node-transpile-only': '/data/data/com.termux/files/home/node_modules/.bin/.ts-node-transpile-only-lN2td7Ae',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/ts-script': '/data/data/com.termux/files/home/node_modules/.bin/.ts-script-zdYHTDIA',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/tslib': '/data/data/com.termux/files/home/node_modules/.tslib-07hsHQs9',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/type-check': '/data/data/com.termux/files/home/node_modules/.type-check-vjqyW4HK',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/type-detect': '/data/data/com.termux/files/home/node_modules/.type-detect-pmGPv34h',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/typechain': '/data/data/com.termux/files/home/node_modules/.typechain-uIkieLxW',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/typechain': '/data/data/com.termux/files/home/node_modules/.bin/.typechain-Nbx5rZqf',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/typed-array-buffer': '/data/data/com.termux/files/home/node_modules/.typed-array-buffer-AVY5uh2Z',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/typescript': '/data/data/com.termux/files/home/node_modules/.typescript-lhFLEJmQ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tsc': '/data/data/com.termux/files/home/node_modules/.bin/.tsc-eLSNHNYr',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tsserver': '/data/data/com.termux/files/home/node_modules/.bin/.tsserver-y6tRFD3o',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/typical': '/data/data/com.termux/files/home/node_modules/.typical-h1jsUhyu',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/uglify-js': '/data/data/com.termux/files/home/node_modules/.uglify-js-FX7w80J3',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/uglifyjs': '/data/data/com.termux/files/home/node_modules/.bin/.uglifyjs-fazvWG8s',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/undici-types': '/data/data/com.termux/files/home/node_modules/.undici-types-OeY8Jtan',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/universalify': '/data/data/com.termux/files/home/node_modules/.universalify-cZOScpNQ',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/utf8': '/data/data/com.termux/files/home/node_modules/.utf8-Rmlisgau',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/util-deprecate': '/data/data/com.termux/files/home/node_modules/.util-deprecate-t8kXv5bl',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/v8-compile-cache-lib': '/data/data/com.termux/files/home/node_modules/.v8-compile-cache-lib-SbCNTbT4',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/viem': '/data/data/com.termux/files/home/node_modules/.viem-OVgYjsot',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/web3-utils': '/data/data/com.termux/files/home/node_modules/.web3-utils-zdCDCTpF',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/which': '/data/data/com.termux/files/home/node_modules/.which-ZaWMyj6n',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-which': '/data/data/com.termux/files/home/node_modules/.bin/.node-which-VvhfnbS9',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/which-typed-array': '/data/data/com.termux/files/home/node_modules/.which-typed-array-WxdwkJSx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/word-wrap': '/data/data/com.termux/files/home/node_modules/.word-wrap-uD0uYULv',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/wordwrap': '/data/data/com.termux/files/home/node_modules/.wordwrap-B9G10gkW',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/wordwrapjs': '/data/data/com.termux/files/home/node_modules/.wordwrapjs-3xdd1Rwa',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/workerpool': '/data/data/com.termux/files/home/node_modules/.workerpool-M9PXq05d',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/wrap-ansi': '/data/data/com.termux/files/home/node_modules/.wrap-ansi-QiqLhR6I',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/wrap-ansi-cjs': '/data/data/com.termux/files/home/node_modules/.wrap-ansi-cjs-kCogkUtx',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/wrappy': '/data/data/com.termux/files/home/node_modules/.wrappy-UsUZuIjw',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/y18n': '/data/data/com.termux/files/home/node_modules/.y18n-QuCjiBLU',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/yargs': '/data/data/com.termux/files/home/node_modules/.yargs-Yqwf57m6',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/yargs-parser': '/data/data/com.termux/files/home/node_modules/.yargs-parser-DIkpohOm',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/yargs-unparser': '/data/data/com.termux/files/home/node_modules/.yargs-unparser-cRfyPtyd',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/yn': '/data/data/com.termux/files/home/node_modules/.yn-YETwJl5P',
+374 silly reify   '/data/data/com.termux/files/home/node_modules/yocto-queue': '/data/data/com.termux/files/home/node_modules/.yocto-queue-SyZ8aBhM'
+374 silly reify }
+375 silly audit bulk request {
+375 silly audit   '@esbuild/aix-ppc64': [ '0.25.11' ],
+375 silly audit   '@esbuild/android-arm': [ '0.25.11' ],
+375 silly audit   '@esbuild/android-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/android-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/darwin-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/darwin-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/freebsd-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/freebsd-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-arm': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-ia32': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-loong64': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-mips64el': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-ppc64': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-riscv64': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-s390x': [ '0.25.11' ],
+375 silly audit   '@esbuild/linux-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/netbsd-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/netbsd-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/openbsd-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/openbsd-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/openharmony-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/sunos-x64': [ '0.25.11' ],
+375 silly audit   '@esbuild/win32-arm64': [ '0.25.11' ],
+375 silly audit   '@esbuild/win32-ia32': [ '0.25.11' ],
+375 silly audit   '@esbuild/win32-x64': [ '0.25.11' ],
+375 silly audit   'ansi-regex': [ '5.0.1' ],
+375 silly audit   'strip-ansi': [ '6.0.1' ],
+375 silly audit   '@noble/curves': [ '1.4.2', '1.8.2' ],
+375 silly audit   '@noble/hashes': [ '1.4.0', '1.7.2' ],
+375 silly audit   '@nomicfoundation/edr': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-darwin-arm64': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-darwin-x64': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-linux-arm64-gnu': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-linux-arm64-musl': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-linux-x64-gnu': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-linux-x64-musl': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/edr-win32-x64-msvc': [ '0.12.0-next.7' ],
+375 silly audit   '@nomicfoundation/hardhat-errors': [ '3.0.2' ],
+375 silly audit   chalk: [ '5.6.2' ],
+375 silly audit   '@nomicfoundation/hardhat-utils': [ '3.0.3' ],
+375 silly audit   semver: [ '7.7.3' ],
+375 silly audit   undici: [ '6.22.0' ],
+375 silly audit   '@nomicfoundation/hardhat-zod-utils': [ '3.0.1' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-darwin-arm64': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-darwin-x64': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-linux-arm64-gnu': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-linux-arm64-musl': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-linux-x64-gnu': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-linux-x64-musl': [ '0.1.2' ],
+375 silly audit   '@nomicfoundation/solidity-analyzer-win32-x64-msvc': [ '0.1.2' ],
+375 silly audit   '@scure/base': [ '1.1.9', '1.2.6' ],
+375 silly audit   '@scure/bip32': [ '1.4.0' ],
+375 silly audit   '@scure/bip39': [ '1.3.0' ],
+375 silly audit   '@sentry/core': [ '9.46.0' ],
+375 silly audit   '@streamparser/json': [ '0.0.22' ],
+375 silly audit   '@streamparser/json-node': [ '0.0.22' ],
+375 silly audit   'adm-zip': [ '0.4.16' ],
+375 silly audit   'ansi-colors': [ '4.1.3' ],
+375 silly audit   chokidar: [ '4.0.3' ],
+375 silly audit   debug: [ '4.4.3' ],
+375 silly audit   enquirer: [ '2.4.1' ],
+375 silly audit   'env-paths': [ '2.2.1' ],
+375 silly audit   esbuild: [ '0.25.11' ],
+375 silly audit   'ethereum-cryptography': [ '2.2.1' ],
+375 silly audit   ws: [ '8.18.3' ],
+375 silly audit   'fast-equals': [ '5.3.2' ],
+375 silly audit   fsevents: [ '2.3.3' ],
+375 silly audit   'get-tsconfig': [ '4.12.0' ],
+375 silly audit   hardhat: [ '3.0.7' ],
+375 silly audit   'json-stream-stringify': [ '3.1.6' ],
+375 silly audit   'micro-eth-signer': [ '0.14.0' ],
+375 silly audit   'micro-packed': [ '0.7.3' ],
+375 silly audit   readdirp: [ '4.1.2' ],
+375 silly audit   ms: [ '2.1.3' ],
+375 silly audit   'p-map': [ '7.0.3' ],
+375 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+375 silly audit   'resolve.exports': [ '2.0.3' ],
+375 silly audit   rfdc: [ '1.4.1' ],
+375 silly audit   tsx: [ '4.20.6' ],
+375 silly audit   zod: [ '3.25.76' ],
+375 silly audit   '@nomicfoundation/hardhat-toolbox': [ '6.1.0' ]
+375 silly audit }
+376 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/fsevents
+377 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/fsevents' ]
+378 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/win32-x64
+379 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/win32-x64' ]
+380 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/win32-ia32
+381 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/win32-ia32' ]
+382 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/win32-arm64
+383 silly reify mark deleted [
+383 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/win32-arm64'
+383 silly reify ]
+384 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/sunos-x64
+385 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/sunos-x64' ]
+386 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/openharmony-arm64
+387 silly reify mark deleted [
+387 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/openharmony-arm64'
+387 silly reify ]
+388 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/openbsd-x64
+389 silly reify mark deleted [
+389 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/openbsd-x64'
+389 silly reify ]
+390 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/openbsd-arm64
+391 silly reify mark deleted [
+391 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/openbsd-arm64'
+391 silly reify ]
+392 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/netbsd-x64
+393 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/netbsd-x64' ]
+394 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/netbsd-arm64
+395 silly reify mark deleted [
+395 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/netbsd-arm64'
+395 silly reify ]
+396 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-x64
+397 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/linux-x64' ]
+398 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-s390x
+399 silly reify mark deleted [
+399 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-s390x'
+399 silly reify ]
+400 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-riscv64
+401 silly reify mark deleted [
+401 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-riscv64'
+401 silly reify ]
+402 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-ppc64
+403 silly reify mark deleted [
+403 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-ppc64'
+403 silly reify ]
+404 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-mips64el
+405 silly reify mark deleted [
+405 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-mips64el'
+405 silly reify ]
+406 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-loong64
+407 silly reify mark deleted [
+407 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-loong64'
+407 silly reify ]
+408 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-ia32
+409 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/linux-ia32' ]
+410 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-arm64
+411 silly reify mark deleted [
+411 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-arm64'
+411 silly reify ]
+412 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-arm
+413 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/linux-arm' ]
+414 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/freebsd-x64
+415 silly reify mark deleted [
+415 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/freebsd-x64'
+415 silly reify ]
+416 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/freebsd-arm64
+417 silly reify mark deleted [
+417 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/freebsd-arm64'
+417 silly reify ]
+418 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/darwin-x64
+419 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/darwin-x64' ]
+420 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/darwin-arm64
+421 silly reify mark deleted [
+421 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/darwin-arm64'
+421 silly reify ]
+422 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/android-x64
+423 silly reify mark deleted [
+423 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/android-x64'
+423 silly reify ]
+424 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/android-arm
+425 silly reify mark deleted [
+425 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/android-arm'
+425 silly reify ]
+426 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/aix-ppc64
+427 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/aix-ppc64' ]
+428 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 471ms
+429 silly audit report {}
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly REMOVE node_modules/yocto-queue
+457 silly REMOVE node_modules/yn
+458 silly REMOVE node_modules/yargs-unparser
+459 silly REMOVE node_modules/yargs-parser
+460 silly REMOVE node_modules/yargs
+461 silly REMOVE node_modules/y18n
+462 silly REMOVE node_modules/wrappy
+463 silly REMOVE node_modules/wrap-ansi-cjs
+464 silly REMOVE node_modules/wrap-ansi
+465 silly REMOVE node_modules/wrap-ansi/node_modules/strip-ansi
+466 silly REMOVE node_modules/wrap-ansi/node_modules/string-width
+467 silly REMOVE node_modules/wrap-ansi/node_modules/emoji-regex
+468 silly REMOVE node_modules/wrap-ansi/node_modules/ansi-styles
+469 silly REMOVE node_modules/wrap-ansi/node_modules/ansi-regex
+470 silly REMOVE node_modules/workerpool
+471 silly REMOVE node_modules/wordwrapjs
+472 silly REMOVE node_modules/wordwrapjs/node_modules/typical
+473 silly REMOVE node_modules/wordwrap
+474 silly REMOVE node_modules/word-wrap
+475 silly REMOVE node_modules/which-typed-array
+476 silly REMOVE node_modules/which
+477 silly REMOVE node_modules/web3-utils
+478 silly REMOVE node_modules/viem
+479 silly REMOVE node_modules/viem/node_modules/@scure/bip39
+480 silly REMOVE node_modules/viem/node_modules/@scure/bip32
+481 silly REMOVE node_modules/viem/node_modules/@scure/base
+482 silly REMOVE node_modules/viem/node_modules/@noble/hashes
+483 silly REMOVE node_modules/viem/node_modules/@noble/curves
+484 silly REMOVE node_modules/v8-compile-cache-lib
+485 silly REMOVE node_modules/util-deprecate
+486 silly REMOVE node_modules/utf8
+487 silly REMOVE node_modules/universalify
+488 silly REMOVE node_modules/undici-types
+489 silly REMOVE node_modules/uglify-js
+490 silly REMOVE node_modules/typical
+491 silly REMOVE node_modules/typescript
+492 silly REMOVE node_modules/typed-array-buffer
+493 silly REMOVE node_modules/typechain
+494 silly REMOVE node_modules/typechain/node_modules/universalify
+495 silly REMOVE node_modules/typechain/node_modules/mkdirp
+496 silly REMOVE node_modules/typechain/node_modules/minimatch
+497 silly REMOVE node_modules/typechain/node_modules/jsonfile
+498 silly REMOVE node_modules/typechain/node_modules/glob
+499 silly REMOVE node_modules/typechain/node_modules/fs-extra
+500 silly REMOVE node_modules/typechain/node_modules/brace-expansion
+501 silly REMOVE node_modules/type-detect
+502 silly REMOVE node_modules/type-check
+503 silly REMOVE node_modules/tslib
+504 silly REMOVE node_modules/ts-node
+505 silly REMOVE node_modules/ts-node/node_modules/diff
+506 silly REMOVE node_modules/ts-essentials
+507 silly REMOVE node_modules/ts-command-line-args
+508 silly REMOVE node_modules/ts-command-line-args/node_modules/supports-color
+509 silly REMOVE node_modules/ts-command-line-args/node_modules/chalk
+510 silly REMOVE node_modules/to-regex-range
+511 silly REMOVE node_modules/to-buffer
+512 silly REMOVE node_modules/to-buffer/node_modules/isarray
+513 silly REMOVE node_modules/through2
+514 silly REMOVE node_modules/through2/node_modules/readable-stream
+515 silly REMOVE node_modules/table-layout
+516 silly REMOVE node_modules/table-layout/node_modules/typical
+517 silly REMOVE node_modules/table-layout/node_modules/array-back
+518 silly REMOVE node_modules/table
+519 silly REMOVE node_modules/supports-color
+520 silly REMOVE node_modules/strip-json-comments
+521 silly REMOVE node_modules/strip-hex-prefix
+522 silly REMOVE node_modules/strip-ansi-cjs
+523 silly REMOVE node_modules/string-width-cjs
+524 silly REMOVE node_modules/string-width
+525 silly REMOVE node_modules/string-format
+526 silly REMOVE node_modules/string_decoder
+527 silly REMOVE node_modules/string_decoder/node_modules/safe-buffer
+528 silly REMOVE node_modules/sprintf-js
+529 silly REMOVE node_modules/split2
+530 silly REMOVE node_modules/split2/node_modules/readable-stream
+531 silly REMOVE node_modules/source-map
+532 silly REMOVE node_modules/solidity-coverage
+533 silly REMOVE node_modules/solidity-coverage/node_modules/universalify
+534 silly REMOVE node_modules/solidity-coverage/node_modules/supports-color
+535 silly REMOVE node_modules/solidity-coverage/node_modules/jsonfile
+536 silly REMOVE node_modules/solidity-coverage/node_modules/has-flag
+537 silly REMOVE node_modules/solidity-coverage/node_modules/fs-extra
+538 silly REMOVE node_modules/solidity-coverage/node_modules/escape-string-regexp
+539 silly REMOVE node_modules/solidity-coverage/node_modules/color-name
+540 silly REMOVE node_modules/solidity-coverage/node_modules/color-convert
+541 silly REMOVE node_modules/solidity-coverage/node_modules/chalk
+542 silly REMOVE node_modules/solidity-coverage/node_modules/ansi-styles
+543 silly REMOVE node_modules/slice-ansi
+544 silly REMOVE node_modules/slash
+545 silly REMOVE node_modules/sisteransi
+546 silly REMOVE node_modules/signal-exit
+547 silly REMOVE node_modules/shelljs
+548 silly REMOVE node_modules/shelljs/node_modules/minimatch
+549 silly REMOVE node_modules/shelljs/node_modules/glob
+550 silly REMOVE node_modules/shelljs/node_modules/brace-expansion
+551 silly REMOVE node_modules/shebang-regex
+552 silly REMOVE node_modules/shebang-command
+553 silly REMOVE node_modules/sha1
+554 silly REMOVE node_modules/sha.js
+555 silly REMOVE node_modules/setimmediate
+556 silly REMOVE node_modules/set-function-length
+557 silly REMOVE node_modules/serialize-javascript
+558 silly REMOVE node_modules/secp256k1
+559 silly REMOVE node_modules/secp256k1/node_modules/node-addon-api
+560 silly REMOVE node_modules/scrypt-js
+561 silly REMOVE node_modules/sc-istanbul
+562 silly REMOVE node_modules/sc-istanbul/node_modules/which
+563 silly REMOVE node_modules/sc-istanbul/node_modules/supports-color
+564 silly REMOVE node_modules/sc-istanbul/node_modules/minimatch
+565 silly REMOVE node_modules/sc-istanbul/node_modules/js-yaml
+566 silly REMOVE node_modules/sc-istanbul/node_modules/js-yaml/node_modules/esprima
+567 silly REMOVE node_modules/sc-istanbul/node_modules/has-flag
+568 silly REMOVE node_modules/sc-istanbul/node_modules/glob
+569 silly REMOVE node_modules/sc-istanbul/node_modules/brace-expansion
+570 silly REMOVE node_modules/sc-istanbul/node_modules/argparse
+571 silly REMOVE node_modules/safe-buffer
+572 silly REMOVE node_modules/run-parallel
+573 silly REMOVE node_modules/rlp
+574 silly REMOVE node_modules/ripemd160
+575 silly REMOVE node_modules/reusify
+576 silly REMOVE node_modules/resolve
+577 silly REMOVE node_modules/require-from-string
+578 silly REMOVE node_modules/require-directory
+579 silly REMOVE node_modules/repeat-string
+580 silly REMOVE node_modules/reduce-flatten
+581 silly REMOVE node_modules/recursive-readdir
+582 silly REMOVE node_modules/recursive-readdir/node_modules/minimatch
+583 silly REMOVE node_modules/recursive-readdir/node_modules/brace-expansion
+584 silly REMOVE node_modules/rechoir
+585 silly REMOVE node_modules/readable-stream
+586 silly REMOVE node_modules/readable-stream/node_modules/safe-buffer
+587 silly REMOVE node_modules/randombytes
+588 silly REMOVE node_modules/queue-microtask
+589 silly REMOVE node_modules/proxy-from-env
+590 silly REMOVE node_modules/prompts
+591 silly REMOVE node_modules/process-nextick-args
+592 silly REMOVE node_modules/prettier
+593 silly REMOVE node_modules/prelude-ls
+594 silly REMOVE node_modules/possible-typed-array-names
+595 silly REMOVE node_modules/pify
+596 silly REMOVE node_modules/picomatch
+597 silly REMOVE node_modules/picocolors
+598 silly REMOVE node_modules/pbkdf2
+599 silly REMOVE node_modules/pathval
+600 silly REMOVE node_modules/path-type
+601 silly REMOVE node_modules/path-scurry
+602 silly REMOVE node_modules/path-key
+603 silly REMOVE node_modules/path-is-absolute
+604 silly REMOVE node_modules/path-exists
+605 silly REMOVE node_modules/package-json-from-dist
+606 silly REMOVE node_modules/p-locate
+607 silly REMOVE node_modules/p-limit
+608 silly REMOVE node_modules/ox
+609 silly REMOVE node_modules/ox/node_modules/@scure/bip39
+610 silly REMOVE node_modules/ox/node_modules/@scure/bip32
+611 silly REMOVE node_modules/ox/node_modules/@scure/base
+612 silly REMOVE node_modules/ox/node_modules/@noble/hashes
+613 silly REMOVE node_modules/ox/node_modules/@noble/curves
+614 silly REMOVE node_modules/ox/node_modules/@adraffy/ens-normalize
+615 silly REMOVE node_modules/ordinal
+616 silly REMOVE node_modules/optionator
+617 silly REMOVE node_modules/once
+618 silly REMOVE node_modules/number-to-bn
+619 silly REMOVE node_modules/number-to-bn/node_modules/bn.js
+620 silly REMOVE node_modules/normalize-path
+621 silly REMOVE node_modules/nopt
+622 silly REMOVE node_modules/nofilter
+623 silly REMOVE node_modules/node-gyp-build
+624 silly REMOVE node_modules/node-emoji
+625 silly REMOVE node_modules/node-addon-api
+626 silly REMOVE node_modules/neo-async
+627 silly REMOVE node_modules/ndjson
+628 silly REMOVE node_modules/ndjson/node_modules/readable-stream
+629 silly REMOVE node_modules/mocha
+630 silly REMOVE node_modules/mocha/node_modules/readdirp
+631 silly REMOVE node_modules/mocha/node_modules/minimatch
+632 silly REMOVE node_modules/mocha/node_modules/glob
+633 silly REMOVE node_modules/mocha/node_modules/chokidar
+634 silly REMOVE node_modules/mkdirp
+635 silly REMOVE node_modules/minipass
+636 silly REMOVE node_modules/minimist
+637 silly REMOVE node_modules/minimatch
+638 silly REMOVE node_modules/minimalistic-crypto-utils
+639 silly REMOVE node_modules/minimalistic-assert
+640 silly REMOVE node_modules/mime-types
+641 silly REMOVE node_modules/mime-db
+642 silly REMOVE node_modules/micromatch
+643 silly REMOVE node_modules/micro-ftch
+644 silly REMOVE node_modules/merge2
+645 silly REMOVE node_modules/md5.js
+646 silly REMOVE node_modules/math-intrinsics
+647 silly REMOVE node_modules/markdown-table
+648 silly REMOVE node_modules/make-error
+649 silly REMOVE node_modules/lru-cache
+650 silly REMOVE node_modules/loupe
+651 silly REMOVE node_modules/log-symbols
+652 silly REMOVE node_modules/log-symbols/node_modules/supports-color
+653 silly REMOVE node_modules/log-symbols/node_modules/chalk
+654 silly REMOVE node_modules/lodash.truncate
+655 silly REMOVE node_modules/lodash.isequal
+656 silly REMOVE node_modules/lodash.clonedeep
+657 silly REMOVE node_modules/lodash.camelcase
+658 silly REMOVE node_modules/lodash
+659 silly REMOVE node_modules/locate-path
+660 silly REMOVE node_modules/levn
+661 silly REMOVE node_modules/kleur
+662 silly REMOVE node_modules/kind-of
+663 silly REMOVE node_modules/keccak
+664 silly REMOVE node_modules/keccak/node_modules/readable-stream
+665 silly REMOVE node_modules/jsonschema
+666 silly REMOVE node_modules/jsonfile
+667 silly REMOVE node_modules/json5
+668 silly REMOVE node_modules/json-stringify-safe
+669 silly REMOVE node_modules/json-schema-traverse
+670 silly REMOVE node_modules/js-yaml
+671 silly REMOVE node_modules/js-sha3
+672 silly REMOVE node_modules/jackspeak
+673 silly REMOVE node_modules/isows
+674 silly REMOVE node_modules/isexe
+675 silly REMOVE node_modules/isarray
+676 silly REMOVE node_modules/is-unicode-supported
+677 silly REMOVE node_modules/is-typed-array
+678 silly REMOVE node_modules/is-plain-obj
+679 silly REMOVE node_modules/is-number
+680 silly REMOVE node_modules/is-hex-prefixed
+681 silly REMOVE node_modules/is-glob
+682 silly REMOVE node_modules/is-fullwidth-code-point
+683 silly REMOVE node_modules/is-extglob
+684 silly REMOVE node_modules/is-callable
+685 silly REMOVE node_modules/is-binary-path
+686 silly REMOVE node_modules/interpret
+687 silly REMOVE node_modules/ini
+688 silly REMOVE node_modules/inherits
+689 silly REMOVE node_modules/inflight
+690 silly REMOVE node_modules/immer
+691 silly REMOVE node_modules/ignore
+692 silly REMOVE node_modules/hmac-drbg
+693 silly REMOVE node_modules/heap
+694 silly REMOVE node_modules/he
+695 silly REMOVE node_modules/hasown
+696 silly REMOVE node_modules/hash.js
+697 silly REMOVE node_modules/hash-base
+698 silly REMOVE node_modules/has-tostringtag
+699 silly REMOVE node_modules/has-symbols
+700 silly REMOVE node_modules/has-property-descriptors
+701 silly REMOVE node_modules/has-flag
+702 silly REMOVE node_modules/hardhat-gas-reporter
+703 silly REMOVE node_modules/hardhat-gas-reporter/node_modules/supports-color
+704 silly REMOVE node_modules/hardhat-gas-reporter/node_modules/chalk
+705 silly REMOVE node_modules/handlebars
+706 silly REMOVE node_modules/handlebars/node_modules/source-map
+707 silly REMOVE node_modules/graceful-fs
+708 silly REMOVE node_modules/gopd
+709 silly REMOVE node_modules/globby
+710 silly REMOVE node_modules/globby/node_modules/minimatch
+711 silly REMOVE node_modules/globby/node_modules/glob
+712 silly REMOVE node_modules/globby/node_modules/brace-expansion
+713 silly REMOVE node_modules/global-prefix
+714 silly REMOVE node_modules/global-prefix/node_modules/which
+715 silly REMOVE node_modules/global-modules
+716 silly REMOVE node_modules/glob-parent
+717 silly REMOVE node_modules/glob
+718 silly REMOVE node_modules/ghost-testrpc
+719 silly REMOVE node_modules/ghost-testrpc/node_modules/supports-color
+720 silly REMOVE node_modules/ghost-testrpc/node_modules/has-flag
+721 silly REMOVE node_modules/ghost-testrpc/node_modules/escape-string-regexp
+722 silly REMOVE node_modules/ghost-testrpc/node_modules/color-name
+723 silly REMOVE node_modules/ghost-testrpc/node_modules/color-convert
+724 silly REMOVE node_modules/ghost-testrpc/node_modules/chalk
+725 silly REMOVE node_modules/ghost-testrpc/node_modules/ansi-styles
+726 silly REMOVE node_modules/get-proto
+727 silly REMOVE node_modules/get-intrinsic
+728 silly REMOVE node_modules/get-func-name
+729 silly REMOVE node_modules/get-caller-file
+730 silly REMOVE node_modules/function-bind
+731 silly REMOVE node_modules/fs.realpath
+732 silly REMOVE node_modules/fs-extra
+733 silly REMOVE node_modules/form-data
+734 silly REMOVE node_modules/foreground-child
+735 silly REMOVE node_modules/for-each
+736 silly REMOVE node_modules/follow-redirects
+737 silly REMOVE node_modules/flat
+738 silly REMOVE node_modules/find-up
+739 silly REMOVE node_modules/find-replace
+740 silly REMOVE node_modules/fill-range
+741 silly REMOVE node_modules/fastq
+742 silly REMOVE node_modules/fast-uri
+743 silly REMOVE node_modules/fast-levenshtein
+744 silly REMOVE node_modules/fast-glob
+745 silly REMOVE node_modules/fast-deep-equal
+746 silly REMOVE node_modules/evp_bytestokey
+747 silly REMOVE node_modules/eventemitter3
+748 silly REMOVE node_modules/ethjs-unit
+749 silly REMOVE node_modules/ethjs-unit/node_modules/bn.js
+750 silly REMOVE node_modules/ethers
+751 silly REMOVE node_modules/ethers/node_modules/ws
+752 silly REMOVE node_modules/ethers/node_modules/undici-types
+753 silly REMOVE node_modules/ethers/node_modules/@types/node
+754 silly REMOVE node_modules/ethers/node_modules/@noble/hashes
+755 silly REMOVE node_modules/ethers/node_modules/@noble/curves
+756 silly REMOVE node_modules/ethereumjs-util
+757 silly REMOVE node_modules/ethereumjs-util/node_modules/ethereum-cryptography
+758 silly REMOVE node_modules/ethereum-bloom-filters
+759 silly REMOVE node_modules/esutils
+760 silly REMOVE node_modules/estraverse
+761 silly REMOVE node_modules/esprima
+762 silly REMOVE node_modules/escodegen
+763 silly REMOVE node_modules/escape-string-regexp
+764 silly REMOVE node_modules/escalade
+765 silly REMOVE node_modules/es-set-tostringtag
+766 silly REMOVE node_modules/es-object-atoms
+767 silly REMOVE node_modules/es-errors
+768 silly REMOVE node_modules/es-define-property
+769 silly REMOVE node_modules/emoji-regex
+770 silly REMOVE node_modules/elliptic
+771 silly REMOVE node_modules/elliptic/node_modules/bn.js
+772 silly REMOVE node_modules/eastasianwidth
+773 silly REMOVE node_modules/dunder-proto
+774 silly REMOVE node_modules/dir-glob
+775 silly REMOVE node_modules/difflib
+776 silly REMOVE node_modules/diff
+777 silly REMOVE node_modules/delayed-stream
+778 silly REMOVE node_modules/define-data-property
+779 silly REMOVE node_modules/deep-is
+780 silly REMOVE node_modules/deep-extend
+781 silly REMOVE node_modules/deep-eql
+782 silly REMOVE node_modules/decamelize
+783 silly REMOVE node_modules/death
+784 silly REMOVE node_modules/crypt
+785 silly REMOVE node_modules/cross-spawn
+786 silly REMOVE node_modules/create-require
+787 silly REMOVE node_modules/create-hmac
+788 silly REMOVE node_modules/create-hash
+789 silly REMOVE node_modules/core-util-is
+790 silly REMOVE node_modules/concat-map
+791 silly REMOVE node_modules/command-line-usage
+792 silly REMOVE node_modules/command-line-usage/node_modules/typical
+793 silly REMOVE node_modules/command-line-usage/node_modules/supports-color
+794 silly REMOVE node_modules/command-line-usage/node_modules/has-flag
+795 silly REMOVE node_modules/command-line-usage/node_modules/escape-string-regexp
+796 silly REMOVE node_modules/command-line-usage/node_modules/color-name
+797 silly REMOVE node_modules/command-line-usage/node_modules/color-convert
+798 silly REMOVE node_modules/command-line-usage/node_modules/chalk
+799 silly REMOVE node_modules/command-line-usage/node_modules/array-back
+800 silly REMOVE node_modules/command-line-usage/node_modules/ansi-styles
+801 silly REMOVE node_modules/command-line-args
+802 silly REMOVE node_modules/combined-stream
+803 silly REMOVE node_modules/color-name
+804 silly REMOVE node_modules/color-convert
+805 silly REMOVE node_modules/cliui
+806 silly REMOVE node_modules/cliui/node_modules/wrap-ansi
+807 silly REMOVE node_modules/cli-table3
+808 silly REMOVE node_modules/cipher-base
+809 silly REMOVE node_modules/check-error
+810 silly REMOVE node_modules/charenc
+811 silly REMOVE node_modules/chai-as-promised
+812 silly REMOVE node_modules/chai
+813 silly REMOVE node_modules/cbor
+814 silly REMOVE node_modules/camelcase
+815 silly REMOVE node_modules/call-bound
+816 silly REMOVE node_modules/call-bind-apply-helpers
+817 silly REMOVE node_modules/call-bind
+818 silly REMOVE node_modules/buffer-xor
+819 silly REMOVE node_modules/bs58check
+820 silly REMOVE node_modules/bs58
+821 silly REMOVE node_modules/browserify-aes
+822 silly REMOVE node_modules/browser-stdout
+823 silly REMOVE node_modules/brotli-wasm
+824 silly REMOVE node_modules/brorand
+825 silly REMOVE node_modules/braces
+826 silly REMOVE node_modules/brace-expansion
+827 silly REMOVE node_modules/bn.js
+828 silly REMOVE node_modules/blakejs
+829 silly REMOVE node_modules/binary-extensions
+830 silly REMOVE node_modules/base-x
+831 silly REMOVE node_modules/balanced-match
+832 silly REMOVE node_modules/axios
+833 silly REMOVE node_modules/available-typed-arrays
+834 silly REMOVE node_modules/at-least-node
+835 silly REMOVE node_modules/asynckit
+836 silly REMOVE node_modules/async
+837 silly REMOVE node_modules/astral-regex
+838 silly REMOVE node_modules/assertion-error
+839 silly REMOVE node_modules/array-union
+840 silly REMOVE node_modules/array-back
+841 silly REMOVE node_modules/argparse
+842 silly REMOVE node_modules/arg
+843 silly REMOVE node_modules/anymatch
+844 silly REMOVE node_modules/ansi-styles
+845 silly REMOVE node_modules/amdefine
+846 silly REMOVE node_modules/ajv
+847 silly REMOVE node_modules/aes-js
+848 silly REMOVE node_modules/acorn-walk
+849 silly REMOVE node_modules/acorn
+850 silly REMOVE node_modules/abitype
+851 silly REMOVE node_modules/abbrev
+852 silly REMOVE node_modules/@types/secp256k1
+853 silly REMOVE node_modules/@types/prettier
+854 silly REMOVE node_modules/@types/pbkdf2
+855 silly REMOVE node_modules/@types/node
+856 silly REMOVE node_modules/@types/mocha
+857 silly REMOVE node_modules/@types/minimatch
+858 silly REMOVE node_modules/@types/glob
+859 silly REMOVE node_modules/@types/chai-as-promised
+860 silly REMOVE node_modules/@types/chai
+861 silly REMOVE node_modules/@types/bn.js
+862 silly REMOVE node_modules/@typechain/hardhat
+863 silly REMOVE node_modules/@typechain/hardhat/node_modules/fs-extra
+864 silly REMOVE node_modules/@typechain/ethers-v6
+865 silly REMOVE node_modules/@tsconfig/node16
+866 silly REMOVE node_modules/@tsconfig/node14
+867 silly REMOVE node_modules/@tsconfig/node12
+868 silly REMOVE node_modules/@tsconfig/node10
+869 silly REMOVE node_modules/@solidity-parser/parser
+870 silly REMOVE node_modules/@pkgjs/parseargs
+871 silly REMOVE node_modules/@nomicfoundation/ignition-ui
+872 silly REMOVE node_modules/@nomicfoundation/ignition-core
+873 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/cbor
+874 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/@ethersproject/address
+875 silly REMOVE node_modules/@nomicfoundation/hardhat-verify
+876 silly REMOVE node_modules/@nomicfoundation/hardhat-verify/node_modules/undici
+877 silly REMOVE node_modules/@nomicfoundation/hardhat-verify/node_modules/semver
+878 silly REMOVE node_modules/@nomicfoundation/hardhat-network-helpers
+879 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition-ethers
+880 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition
+881 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/supports-color
+882 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/chalk
+883 silly REMOVE node_modules/@nomicfoundation/hardhat-ethers
+884 silly REMOVE node_modules/@nomicfoundation/hardhat-chai-matchers
+885 silly REMOVE node_modules/@nodelib/fs.walk
+886 silly REMOVE node_modules/@nodelib/fs.stat
+887 silly REMOVE node_modules/@nodelib/fs.scandir
+888 silly REMOVE node_modules/@noble/ciphers
+889 silly REMOVE node_modules/@jridgewell/trace-mapping
+890 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+891 silly REMOVE node_modules/@jridgewell/resolve-uri
+892 silly REMOVE node_modules/@isaacs/cliui
+893 silly REMOVE node_modules/@isaacs/cliui/node_modules/strip-ansi
+894 silly REMOVE node_modules/@isaacs/cliui/node_modules/string-width
+895 silly REMOVE node_modules/@isaacs/cliui/node_modules/emoji-regex
+896 silly REMOVE node_modules/@isaacs/cliui/node_modules/ansi-regex
+897 silly REMOVE node_modules/@fastify/busboy
+898 silly REMOVE node_modules/@ethersproject/web
+899 silly REMOVE node_modules/@ethersproject/units
+900 silly REMOVE node_modules/@ethersproject/transactions
+901 silly REMOVE node_modules/@ethersproject/strings
+902 silly REMOVE node_modules/@ethersproject/signing-key
+903 silly REMOVE node_modules/@ethersproject/rlp
+904 silly REMOVE node_modules/@ethersproject/properties
+905 silly REMOVE node_modules/@ethersproject/networks
+906 silly REMOVE node_modules/@ethersproject/logger
+907 silly REMOVE node_modules/@ethersproject/keccak256
+908 silly REMOVE node_modules/@ethersproject/hash
+909 silly REMOVE node_modules/@ethersproject/constants
+910 silly REMOVE node_modules/@ethersproject/bytes
+911 silly REMOVE node_modules/@ethersproject/bignumber
+912 silly REMOVE node_modules/@ethersproject/base64
+913 silly REMOVE node_modules/@ethersproject/address
+914 silly REMOVE node_modules/@ethersproject/abstract-signer
+915 silly REMOVE node_modules/@ethersproject/abstract-provider
+916 silly REMOVE node_modules/@ethersproject/abi
+917 silly REMOVE node_modules/@ethereumjs/util
+918 silly REMOVE node_modules/@ethereumjs/rlp
+919 silly REMOVE node_modules/@cspotcode/source-map-support
+920 silly REMOVE node_modules/@colors/colors
+921 silly REMOVE node_modules/@adraffy/ens-normalize
+922 verbose cwd /data/data/com.termux/files/home
+923 verbose os Linux 6.6.30-android15-8-g6b55ce738535-4k
+924 verbose node v22.20.0
+925 verbose npm  v10.9.3
+926 verbose exit 0
+927 info ok
