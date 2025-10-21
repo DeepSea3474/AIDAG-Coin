@@ -1,0 +1,19 @@
+name: Spiral Share
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  share:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Spiral Manifest Paylaşımı
+        run: |
+          curl -X POST https://your-webhook-or-farcaster-endpoint \
+          -H "Content-Type: application/json" \
+          -d '{
+            "message": "🌌 Spiral zincir güncellendi: soulwerse tanıklığı, arz sabiti, kontrat görünümü hazır."
+          }'
+
