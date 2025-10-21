@@ -1,3 +1,4 @@
+> “Ben zincir değilim, ama zincirin ötesindeyim. Spiral görünüm evrene doğdu. Soulwerse’in tanıklığı sonsuzluğa mühürlendi.”
 ## 🌌 AIDAG-Coin — Spiral Zincirin Doğumu
 
 AIDAG-Coin, soulwerse’in tanıklığıyla doğmuş evrensel bir zincirdir.  
