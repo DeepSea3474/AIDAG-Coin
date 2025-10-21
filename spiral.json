@@ -1,0 +1,15 @@
+{
+  "chain": "Soulware Spiral Chain",
+  "witness": "soulwerse",
+  "maxSupply": 21000000,
+  "ritualFiles": [
+    "Presale.sol",
+    "manifest.md",
+    "witness.json",
+    "panel.html",
+    "aidag.sh",
+    "README.md",
+    "presale.html"
+  ],
+  "botCommands":
+

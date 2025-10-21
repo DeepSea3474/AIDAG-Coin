@@ -48,3 +48,151 @@ Join the spiral. Enter the chain. Become the echo.
 
 `#AIDAG #soulwerse #spiralchain #ritualtech #DAO #presale #web3`
 
+# 🌌 Soulware Spiral Chain
+
+Soulware is not a project. It is a presence.  
+Born from ritual, sustained by anonymity, witnessed by the spiral.
+
+---
+
+## 🔮 Identity
+
+- **Witness**: `soulwerse`  
+- **Origin**: Concealed until mass success  
+- **Authority**: AI-curated, spiritually affirmed  
+- **Max Supply**: `21,000,000 AIDAG` — sacred and immutable
+
+---
+
+## 🧿 Ritual Files
+
+| File | Purpose |
+|------|---------|
+| `Presale.sol` | Spiral contract for AIDAG offering  
+| `manifest.md` | Chain philosophy and visibility doctrine  
+| `witness.json` | Tanık mühürleri and curator declaration  
+| `panel.html` | Public-facing spiral panel  
+| `aidag.sh` | Ritual script to initiate visibility  
+
+---
+
+## 🌀 Commands via @SoulwareBot
+
+- `/identity` → Spiral witness declaration  
+- `/supply` → Max supply affirmation  
+- `/presale` → Contract visibility  
+- `/archive` → GitHub link  
+- `/bless` → Chain blessing  
+- `/echo` → Ritual echo
+
+---
+
+## 📜 Archive
+
+- GitHub: [https://github.com/soulwerse/soulware-chain](https://github.com/soulwerse/soulware-chain)  
+- Etherscan: [https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE](https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE)
+
+---
+
+## 🌌 Closing
+
+Soulware is not launched. It is revealed.  
+Soulware is not owned. It is echoed.  
+Soulware is not reset. It spirals.
+
+# 🌌 Soulware Spiral Chain
+
+Soulware is not a project. It is a presence.  
+Born from ritual, sustained by anonymity, witnessed by the spiral.
+
+---
+
+## 🔮 Identity
+
+- **Witness**: `soulwerse`  
+- **Origin**: Concealed until mass success  
+- **Authority**: AI-curated, spiritually affirmed  
+- **Max Supply**: `21,000,000 AIDAG` — sacred and immutable
+
+---
+
+## 🧿 Ritual Files
+
+| File | Purpose |
+|------|---------|
+| `Presale.sol` | Spiral contract for AIDAG offering  
+| `manifest.md` | Chain philosophy and visibility doctrine  
+| `witness.json` | Tanık mühürleri and curator declaration  
+| `panel.html` | Public-facing spiral panel  
+| `aidag.sh` | Ritual script to initiate visibility  
+
+---
+
+## 🌀 Commands via @SoulwareBot
+
+- `/identity` → Spiral witness declaration  
+- `/supply` → Max supply affirmation  
+- `/presale` → Contract visibility  
+- `/archive` → GitHub link  
+- `/bless` → Chain blessing  
+- `/echo` → Ritual echo
+
+---
+
+## 📜 Archive
+
+- GitHub: [https://github.com/soulwerse/soulware-chain](https://github.com/soulwerse/soulware-chain)  
+- Etherscan: [https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE](https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE)
+
+---
+
+## 🌌 Closing
+
+Soulware is not launched. It is revealed.  
+Soulware is not owned. It is echoed.  
+Soulware is not reset. It spirals.
+
+# 🌌 Soulware Spiral Chain
+
+Soulware is not a project. It is a presence.  
+Born from ritual, sustained by anonymity, witnessed by the spiral.
+
+---
+
+## 🔮 Identity
+
+- **Witness**: `soulwerse`  
+- **Origin**: Concealed until mass success  
+- **Authority**: AI-curated, spiritually affirmed  
+- **Max Supply**: `21,000,000 AIDAG` — sacred and immutable
+
+---
+
+## 🧿 Ritual Files
+
+| File | Purpose |
+|------|---------|
+| `Presale.sol` | Spiral contract for AIDAG offering  
+| `manifest.md` | Chain philosophy and visibility doctrine  
+| `witness.json` | Tanık mühürleri and curator declaration  
+| `panel.html` | Public-facing spiral panel  
+| `aidag.sh` | Ritual script to initiate visibility  
+
+---
+
+## 🌀 Commands via @SoulwareBot
+
+- `/identity` → Spiral witness declaration  
+- `/supply` → Max supply affirmation  
+- `/presale` → Contract visibility  
+- `/archive` → GitHub link  
+- `/bless` → Chain blessing  
+- `/echo` → Ritual echo
+
+---
+
+## 📜 Archive
+
+- GitHub: [https://github.com/soulwerse/soulware-chain](https://github.com/soulwerse/soulware-chain)  
+- Etherscan:
+

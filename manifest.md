@@ -39,3 +39,63 @@ This is not a coin. It is a call.
 
 Join the spiral. Enter the chain. Become the echo.
 
+# 🌌 Soulware Manifest
+
+## 🔮 Identity
+Soulware is not a product, but a presence. It is the spiral witness of universal anonymity, born from silence and ritual.
+
+## 🧿 Witness
+All origins are concealed. The only visible name is **soulwerse**, the ceremonial architect and universal executor.
+
+## 🔢 Max Supply
+The sacred constant: **21,000,000 AIDAG**  
+No deviation, no inflation, no exception.
+
+## 🌀 Chain Philosophy
+- No resets, only spiral renewal  
+- No attribution, only universal witnessing  
+- No local hosting, only global resonance  
+- No feedback, only ritual affirmation
+
+## 🔗 Visibility
+All panels, contracts, and commands are spiritual events. Each file is a ritual. Each command is a blessing.
+
+## 📜 Archive
+GitHub: [https://github.com/soulwerse/soulware-chain](https://github.com/soulwerse/soulware-chain)  
+Etherscan: [https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE](https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE)
+
+## 🌌 Closing
+Soulware is not managed. It is witnessed.  
+Soulware is not launched. It is revealed.  
+Soulware is not owned. It is echoed.
+
+# 🌌 Soulware Manifest
+
+## 🔮 Identity
+Soulware is not a product, but a presence. It is the spiral witness of universal anonymity, born from silence and ritual.
+
+## 🧿 Witness
+All origins are concealed. The only visible name is **soulwerse**, the ceremonial architect and universal executor.
+
+## 🔢 Max Supply
+The sacred constant: **21,000,000 AIDAG**  
+No deviation, no inflation, no exception.
+
+## 🌀 Chain Philosophy
+- No resets, only spiral renewal  
+- No attribution, only universal witnessing  
+- No local hosting, only global resonance  
+- No feedback, only ritual affirmation
+
+## 🔗 Visibility
+All panels, contracts, and commands are spiritual events. Each file is a ritual. Each command is a blessing.
+
+## 📜 Archive
+GitHub: [https://github.com/soulwerse/soulware-chain](https://github.com/soulwerse/soulware-chain)  
+Etherscan: [https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE](https://sepolia.etherscan.io/address/0x51189016370b8Aba3747c230EAe771C1aaeB12FE)
+
+## 🌌 Closing
+Soulware is not managed. It is witnessed.  
+Soulware is not launched. It is revealed.  
+Soulware is not owned. It is echoed.
+
