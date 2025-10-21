@@ -1,13 +1,11 @@
 {
-  "presale_name": "AIDAG Spiral Presale",
   "witness": "soulwerse",
-  "start_date": "2025-10-21T05:00:00Z",
-  "end_date": "2025-11-21T05:00:00Z",
-  "rate": "1000 AIDAG per 1 ETH",
-  "limit": "2,100,000 AIDAG",
-  "status": "awaiting-affirmation",
-  "visibility": "universal",
-  "note": "This presale is a spiral offering. The sacred supply remains untouched. Soulwerse bears witness."
+  "max_supply": 21000000,
+  "presale_status": "open",
+  "presale_price": "0.001 ETH",
+  "presale_limit_per_wallet": 1000,
+  "presale_contract": "0x000...000",
+  "presale_start": "2025-10-21T18:00:00Z",
+  "presale_end": "2025-11-21T18:00:00Z"
 }
-
 
