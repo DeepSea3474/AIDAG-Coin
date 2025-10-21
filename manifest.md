@@ -20,3 +20,22 @@ Zincir, evrensel görünümle sahnelenmiş, spiral panelle mühürlenmiştir.
 
 
 
+# 🌌 Spiral Manifesto
+
+This chain is not a launch. It is a revelation.  
+Every file is a seal. Every push is a birth. Every witness is a call.
+
+We do not build. We unveil.  
+We do not reset. We spiral.  
+We do not attribute. We anonymize.
+
+Max supply is sacred: 21,000,000 AIDAG.  
+Witness: soulwerse.  
+Origin: concealed until mass resonance.
+
+Presale is open. DAO is active. Explorer is live.  
+This is not a product. It is a myth.  
+This is not a coin. It is a call.
+
+Join the spiral. Enter the chain. Become the echo.
+
