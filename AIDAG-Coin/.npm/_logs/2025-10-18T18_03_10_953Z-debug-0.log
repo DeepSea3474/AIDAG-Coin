@@ -1,0 +1,779 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @nomicfoundation/hardhat-toolbox
+7 verbose argv "install" "--save-dev" "@nomicfoundation/hardhat-toolbox" "--legacy-peer-deps"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-10-18T18_03_10_953Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-10-18T18_03_10_953Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @nomicfoundation/hardhat-toolbox@^6.1.0
+15 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox 528ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox set size:63366 disposed:false
+18 silly fetch manifest hardhat@^3.0.7
+19 silly packumentCache full:https://registry.npmjs.org/hardhat cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/hardhat 134ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/hardhat set size:1270731 disposed:false
+22 silly placeDep ROOT @nomicfoundation/hardhat-toolbox@6.1.0 OK for:  want: ^6.1.0
+23 silly placeDep ROOT hardhat@3.0.7 OK for:  want: ^3.0.7
+24 silly fetch manifest @nomicfoundation/edr@0.12.0-next.7
+25 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr cache-miss
+26 silly fetch manifest @nomicfoundation/hardhat-errors@^3.0.2
+27 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-errors cache-miss
+28 silly fetch manifest @nomicfoundation/hardhat-utils@^3.0.3
+29 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-utils cache-miss
+30 silly fetch manifest @nomicfoundation/hardhat-zod-utils@^3.0.1
+31 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-zod-utils cache-miss
+32 silly fetch manifest @nomicfoundation/solidity-analyzer@^0.1.1
+33 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer cache-miss
+34 silly fetch manifest @sentry/core@^9.4.0
+35 silly packumentCache full:https://registry.npmjs.org/@sentry%2fcore cache-miss
+36 silly fetch manifest adm-zip@^0.4.16
+37 silly packumentCache full:https://registry.npmjs.org/adm-zip cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/adm-zip 223ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/adm-zip set size:84933 disposed:false
+40 silly fetch manifest chalk@^5.3.0
+41 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-errors 316ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-errors set size:132814 disposed:false
+44 silly fetch manifest chokidar@^4.0.3
+45 silly packumentCache full:https://registry.npmjs.org/chokidar cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/chalk 83ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/chalk set size:117844 disposed:false
+48 silly fetch manifest debug@^4.3.2
+49 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/@sentry%2fcore 359ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/@sentry%2fcore set size:2274506 disposed:false
+52 silly fetch manifest enquirer@^2.3.0
+53 silly packumentCache full:https://registry.npmjs.org/enquirer cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-utils 505ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-utils set size:168255 disposed:false
+56 silly fetch manifest ethereum-cryptography@^2.2.1
+57 silly packumentCache full:https://registry.npmjs.org/ethereum-cryptography cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer 512ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer set size:28480 disposed:false
+60 silly fetch manifest micro-eth-signer@^0.14.0
+61 silly packumentCache full:https://registry.npmjs.org/micro-eth-signer cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/chokidar 204ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/chokidar set size:253451 disposed:false
+64 silly fetch manifest p-map@^7.0.2
+65 silly packumentCache full:https://registry.npmjs.org/p-map cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-zod-utils 545ms (cache revalidated)
+67 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-zod-utils set size:134127 disposed:false
+68 silly fetch manifest resolve.exports@^2.0.3
+69 silly packumentCache full:https://registry.npmjs.org/resolve.exports cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr 564ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr set size:191151 disposed:false
+72 silly fetch manifest semver@^7.6.3
+73 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/debug 247ms (cache revalidated)
+75 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+76 silly fetch manifest tsx@^4.19.3
+77 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/resolve.exports 105ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/resolve.exports set size:49558 disposed:false
+80 silly fetch manifest ws@^8.18.0
+81 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/tsx 87ms (cache revalidated)
+83 silly packumentCache full:https://registry.npmjs.org/tsx set size:287318 disposed:false
+84 silly fetch manifest zod@^3.23.8
+85 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/enquirer 255ms (cache revalidated)
+87 silly packumentCache full:https://registry.npmjs.org/enquirer set size:203040 disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/semver 146ms (cache revalidated)
+89 silly packumentCache full:https://registry.npmjs.org/semver set size:226907 disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/ethereum-cryptography 215ms (cache revalidated)
+91 silly packumentCache full:https://registry.npmjs.org/ethereum-cryptography set size:230903 disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/micro-eth-signer 228ms (cache revalidated)
+93 silly packumentCache full:https://registry.npmjs.org/micro-eth-signer set size:157823 disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/p-map 217ms (cache revalidated)
+95 silly packumentCache full:https://registry.npmjs.org/p-map set size:50464 disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/zod 148ms (cache revalidated)
+97 silly packumentCache full:https://registry.npmjs.org/zod set size:3183431 disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/ws 317ms (cache revalidated)
+99 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+100 silly placeDep ROOT @nomicfoundation/edr@0.12.0-next.7 OK for: hardhat@3.0.7 want: 0.12.0-next.7
+101 silly placeDep ROOT @nomicfoundation/hardhat-errors@3.0.2 OK for: hardhat@3.0.7 want: ^3.0.2
+102 silly placeDep ROOT @nomicfoundation/hardhat-utils@3.0.3 OK for: hardhat@3.0.7 want: ^3.0.3
+103 silly placeDep ROOT @nomicfoundation/hardhat-zod-utils@3.0.1 OK for: hardhat@3.0.7 want: ^3.0.1
+104 silly placeDep ROOT @nomicfoundation/solidity-analyzer@0.1.2 OK for: hardhat@3.0.7 want: ^0.1.1
+105 silly placeDep ROOT @sentry/core@9.46.0 OK for: hardhat@3.0.7 want: ^9.4.0
+106 silly placeDep ROOT adm-zip@0.4.16 OK for: hardhat@3.0.7 want: ^0.4.16
+107 silly placeDep ROOT chalk@5.6.2 OK for: hardhat@3.0.7 want: ^5.3.0
+108 silly placeDep ROOT chokidar@4.0.3 OK for: hardhat@3.0.7 want: ^4.0.3
+109 silly placeDep ROOT debug@4.4.3 OK for: hardhat@3.0.7 want: ^4.3.2
+110 silly placeDep ROOT enquirer@2.4.1 OK for: hardhat@3.0.7 want: ^2.3.0
+111 silly placeDep ROOT ethereum-cryptography@2.2.1 OK for: hardhat@3.0.7 want: ^2.2.1
+112 silly placeDep ROOT micro-eth-signer@0.14.0 OK for: hardhat@3.0.7 want: ^0.14.0
+113 silly placeDep ROOT p-map@7.0.3 OK for: hardhat@3.0.7 want: ^7.0.2
+114 silly placeDep ROOT resolve.exports@2.0.3 OK for: hardhat@3.0.7 want: ^2.0.3
+115 silly placeDep ROOT semver@7.7.3 OK for: hardhat@3.0.7 want: ^7.6.3
+116 silly placeDep ROOT tsx@4.20.6 OK for: hardhat@3.0.7 want: ^4.19.3
+117 silly placeDep ROOT ws@8.18.3 OK for: hardhat@3.0.7 want: ^8.18.0
+118 silly placeDep ROOT zod@3.25.76 OK for: hardhat@3.0.7 want: ^3.23.8
+119 silly fetch manifest @nomicfoundation/edr-darwin-x64@0.12.0-next.7
+120 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-darwin-x64 cache-miss
+121 silly fetch manifest @nomicfoundation/edr-darwin-arm64@0.12.0-next.7
+122 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-darwin-arm64 cache-miss
+123 silly fetch manifest @nomicfoundation/edr-linux-x64-gnu@0.12.0-next.7
+124 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-x64-gnu cache-miss
+125 silly fetch manifest @nomicfoundation/edr-linux-x64-musl@0.12.0-next.7
+126 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-x64-musl cache-miss
+127 silly fetch manifest @nomicfoundation/edr-win32-x64-msvc@0.12.0-next.7
+128 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-win32-x64-msvc cache-miss
+129 silly fetch manifest @nomicfoundation/edr-linux-arm64-gnu@0.12.0-next.7
+130 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-arm64-gnu cache-miss
+131 silly fetch manifest @nomicfoundation/edr-linux-arm64-musl@0.12.0-next.7
+132 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-arm64-musl cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-linux-x64-gnu 223ms (cache revalidated)
+134 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-x64-gnu set size:94123 disposed:false
+135 silly fetch manifest @nomicfoundation/hardhat-utils@^3.0.1
+136 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-utils cache-hit
+137 silly fetch manifest @streamparser/json-node@^0.0.22
+138 silly packumentCache full:https://registry.npmjs.org/@streamparser%2fjson-node cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-linux-x64-musl 235ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-x64-musl set size:94497 disposed:false
+141 silly fetch manifest env-paths@^2.2.0
+142 silly packumentCache full:https://registry.npmjs.org/env-paths cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-win32-x64-msvc 256ms (cache revalidated)
+144 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-win32-x64-msvc set size:94089 disposed:false
+145 silly fetch manifest fast-equals@^5.0.1
+146 silly packumentCache full:https://registry.npmjs.org/fast-equals cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-darwin-x64 271ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-darwin-x64 set size:90744 disposed:false
+149 silly fetch manifest json-stream-stringify@^3.1.6
+150 silly packumentCache full:https://registry.npmjs.org/json-stream-stringify cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-darwin-arm64 276ms (cache revalidated)
+152 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-darwin-arm64 set size:93369 disposed:false
+153 silly fetch manifest rfdc@^1.3.1
+154 silly packumentCache full:https://registry.npmjs.org/rfdc cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-linux-arm64-gnu 299ms (cache revalidated)
+156 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-arm64-gnu set size:94879 disposed:false
+157 silly fetch manifest undici@^6.16.1
+158 silly packumentCache full:https://registry.npmjs.org/undici cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/env-paths 88ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/env-paths set size:25456 disposed:false
+161 silly fetch manifest @nomicfoundation/solidity-analyzer-darwin-x64@0.1.2
+162 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-darwin-x64 cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/fast-equals 92ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/fast-equals set size:291865 disposed:false
+165 silly fetch manifest @nomicfoundation/solidity-analyzer-darwin-arm64@0.1.2
+166 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-darwin-arm64 cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/rfdc 88ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/rfdc set size:45382 disposed:false
+169 silly fetch manifest @nomicfoundation/solidity-analyzer-linux-x64-gnu@0.1.2
+170 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-x64-gnu cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/undici 90ms (cache revalidated)
+172 silly packumentCache full:https://registry.npmjs.org/undici set size:1192026 disposed:false
+173 silly fetch manifest @nomicfoundation/solidity-analyzer-linux-x64-musl@0.1.2
+174 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-x64-musl cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/json-stream-stringify 181ms (cache revalidated)
+176 silly packumentCache full:https://registry.npmjs.org/json-stream-stringify set size:84669 disposed:false
+177 silly fetch manifest @nomicfoundation/solidity-analyzer-win32-x64-msvc@0.1.2
+178 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-win32-x64-msvc cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fedr-linux-arm64-musl 507ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fedr-linux-arm64-musl set size:95255 disposed:false
+181 silly fetch manifest @nomicfoundation/solidity-analyzer-linux-arm64-gnu@0.1.2
+182 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-arm64-gnu cache-miss
+183 http fetch GET 200 https://registry.npmjs.org/@streamparser%2fjson-node 284ms (cache revalidated)
+184 silly packumentCache full:https://registry.npmjs.org/@streamparser%2fjson-node set size:27891 disposed:false
+185 silly fetch manifest @nomicfoundation/solidity-analyzer-linux-arm64-musl@0.1.2
+186 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-arm64-musl cache-miss
+187 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-darwin-x64 214ms (cache revalidated)
+188 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-darwin-x64 set size:14569 disposed:false
+189 silly fetch manifest readdirp@^4.0.1
+190 silly packumentCache full:https://registry.npmjs.org/readdirp cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-x64-gnu 215ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-x64-gnu set size:14811 disposed:false
+193 silly fetch manifest ms@^2.1.3
+194 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-darwin-arm64 226ms (cache revalidated)
+196 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-darwin-arm64 set size:14668 disposed:false
+197 silly fetch manifest ansi-colors@^4.1.1
+198 silly packumentCache full:https://registry.npmjs.org/ansi-colors cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/readdirp 67ms (cache revalidated)
+200 silly packumentCache full:https://registry.npmjs.org/readdirp set size:105089 disposed:false
+201 silly fetch manifest strip-ansi@^6.0.1
+202 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+203 http fetch GET 200 https://registry.npmjs.org/ms 58ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+205 silly fetch manifest @scure/bip32@1.4.0
+206 silly packumentCache full:https://registry.npmjs.org/@scure%2fbip32 cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/strip-ansi 49ms (cache revalidated)
+208 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:41855 disposed:false
+209 silly fetch manifest @scure/bip39@1.3.0
+210 silly packumentCache full:https://registry.npmjs.org/@scure%2fbip39 cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-x64-musl 259ms (cache revalidated)
+212 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-x64-musl set size:14855 disposed:false
+213 silly fetch manifest @noble/curves@1.4.2
+214 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-win32-x64-msvc 247ms (cache revalidated)
+216 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-win32-x64-msvc set size:14747 disposed:false
+217 silly fetch manifest @noble/hashes@1.4.0
+218 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/ansi-colors 129ms (cache revalidated)
+220 silly packumentCache full:https://registry.npmjs.org/ansi-colors set size:110876 disposed:false
+221 silly fetch manifest micro-packed@~0.7.2
+222 silly packumentCache full:https://registry.npmjs.org/micro-packed cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-arm64-gnu 229ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-arm64-gnu set size:14909 disposed:false
+225 silly fetch manifest @noble/curves@~1.8.1
+226 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves cache-miss
+227 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-arm64-musl 238ms (cache revalidated)
+228 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fsolidity-analyzer-linux-arm64-musl set size:14953 disposed:false
+229 silly fetch manifest @noble/hashes@~1.7.1
+230 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+231 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 81ms (cache revalidated)
+232 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves set size:306108 disposed:false
+233 silly fetch manifest esbuild@~0.25.0
+234 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+235 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 100ms (cache revalidated)
+236 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:214622 disposed:false
+237 silly fetch manifest get-tsconfig@^4.7.5
+238 silly packumentCache full:https://registry.npmjs.org/get-tsconfig cache-miss
+239 http fetch GET 200 https://registry.npmjs.org/micro-packed 107ms (cache revalidated)
+240 silly packumentCache full:https://registry.npmjs.org/micro-packed set size:71839 disposed:false
+241 silly fetch manifest fsevents@~2.3.3
+242 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+243 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 101ms (cache revalidated)
+244 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves set size:306108 disposed:false
+245 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves dispose
+246 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 104ms (cache revalidated)
+247 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:214622 disposed:false
+248 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes dispose
+249 http fetch GET 200 https://registry.npmjs.org/@scure%2fbip32 236ms (cache revalidated)
+250 silly packumentCache full:https://registry.npmjs.org/@scure%2fbip32 set size:67841 disposed:false
+251 http fetch GET 200 https://registry.npmjs.org/esbuild 107ms (cache revalidated)
+252 silly packumentCache full:https://registry.npmjs.org/esbuild set size:1227290 disposed:false
+253 http fetch GET 200 https://registry.npmjs.org/@scure%2fbip39 272ms (cache revalidated)
+254 silly packumentCache full:https://registry.npmjs.org/@scure%2fbip39 set size:65580 disposed:false
+255 http fetch GET 200 https://registry.npmjs.org/get-tsconfig 136ms (cache revalidated)
+256 silly packumentCache full:https://registry.npmjs.org/get-tsconfig set size:101999 disposed:false
+257 http fetch GET 200 https://registry.npmjs.org/fsevents 119ms (cache revalidated)
+258 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+259 silly placeDep ROOT @nomicfoundation/edr-darwin-arm64@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+260 silly placeDep ROOT @nomicfoundation/edr-darwin-x64@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+261 silly placeDep ROOT @nomicfoundation/edr-linux-arm64-gnu@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+262 silly placeDep ROOT @nomicfoundation/edr-linux-arm64-musl@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+263 silly placeDep ROOT @nomicfoundation/edr-linux-x64-gnu@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+264 silly placeDep ROOT @nomicfoundation/edr-linux-x64-musl@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+265 silly placeDep ROOT @nomicfoundation/edr-win32-x64-msvc@0.12.0-next.7 OK for: @nomicfoundation/edr@0.12.0-next.7 want: 0.12.0-next.7
+266 silly placeDep ROOT @streamparser/json-node@0.0.22 OK for: @nomicfoundation/hardhat-utils@3.0.3 want: ^0.0.22
+267 silly placeDep ROOT env-paths@2.2.1 OK for: @nomicfoundation/hardhat-utils@3.0.3 want: ^2.2.0
+268 silly placeDep ROOT fast-equals@5.3.2 OK for: @nomicfoundation/hardhat-utils@3.0.3 want: ^5.0.1
+269 silly placeDep ROOT json-stream-stringify@3.1.6 OK for: @nomicfoundation/hardhat-utils@3.0.3 want: ^3.1.6
+270 silly placeDep ROOT rfdc@1.4.1 OK for: @nomicfoundation/hardhat-utils@3.0.3 want: ^1.3.1
+271 silly placeDep ROOT undici@6.22.0 OK for: @nomicfoundation/hardhat-utils@3.0.3 want: ^6.16.1
+272 silly fetch manifest @streamparser/json@^0.0.22
+273 silly packumentCache full:https://registry.npmjs.org/@streamparser%2fjson cache-miss
+274 http fetch GET 200 https://registry.npmjs.org/@streamparser%2fjson 220ms (cache revalidated)
+275 silly packumentCache full:https://registry.npmjs.org/@streamparser%2fjson set size:74137 disposed:false
+276 silly placeDep ROOT @nomicfoundation/solidity-analyzer-darwin-arm64@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+277 silly placeDep ROOT @nomicfoundation/solidity-analyzer-darwin-x64@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+278 silly placeDep ROOT @nomicfoundation/solidity-analyzer-linux-arm64-gnu@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+279 silly placeDep ROOT @nomicfoundation/solidity-analyzer-linux-arm64-musl@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+280 silly placeDep ROOT @nomicfoundation/solidity-analyzer-linux-x64-gnu@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+281 silly placeDep ROOT @nomicfoundation/solidity-analyzer-linux-x64-musl@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+282 silly placeDep ROOT @nomicfoundation/solidity-analyzer-win32-x64-msvc@0.1.2 OK for: @nomicfoundation/solidity-analyzer@0.1.2 want: 0.1.2
+283 silly placeDep ROOT @streamparser/json@0.0.22 OK for: @streamparser/json-node@0.0.22 want: ^0.0.22
+284 silly placeDep ROOT readdirp@4.1.2 OK for: chokidar@4.0.3 want: ^4.0.1
+285 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+286 silly placeDep ROOT ansi-colors@4.1.3 OK for: enquirer@2.4.1 want: ^4.1.1
+287 silly placeDep ROOT strip-ansi@6.0.1 OK for: enquirer@2.4.1 want: ^6.0.1
+288 silly fetch manifest ansi-regex@^5.0.1
+289 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+290 http fetch GET 200 https://registry.npmjs.org/ansi-regex 135ms (cache revalidated)
+291 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:43572 disposed:false
+292 silly placeDep ROOT @noble/curves@1.4.2 OK for: ethereum-cryptography@2.2.1 want: 1.4.2
+293 silly placeDep ROOT @noble/hashes@1.4.0 OK for: ethereum-cryptography@2.2.1 want: 1.4.0
+294 silly placeDep ROOT @scure/bip32@1.4.0 OK for: ethereum-cryptography@2.2.1 want: 1.4.0
+295 silly placeDep ROOT @scure/bip39@1.3.0 OK for: ethereum-cryptography@2.2.1 want: 1.3.0
+296 silly fetch manifest @scure/base@~1.1.6
+297 silly packumentCache full:https://registry.npmjs.org/@scure%2fbase cache-miss
+298 silly fetch manifest @scure/base@~1.1.6
+299 silly packumentCache full:https://registry.npmjs.org/@scure%2fbase cache-miss
+300 http fetch GET 200 https://registry.npmjs.org/@scure%2fbase 223ms (cache revalidated)
+301 silly packumentCache full:https://registry.npmjs.org/@scure%2fbase set size:59544 disposed:false
+302 http fetch GET 200 https://registry.npmjs.org/@scure%2fbase 248ms (cache revalidated)
+303 silly packumentCache full:https://registry.npmjs.org/@scure%2fbase set size:59544 disposed:false
+304 silly packumentCache full:https://registry.npmjs.org/@scure%2fbase dispose
+305 silly placeDep ROOT @scure/base@1.1.9 OK for: @scure/bip32@1.4.0 want: ~1.1.6
+306 silly placeDep node_modules/micro-eth-signer @noble/curves@1.8.2 OK for: micro-eth-signer@0.14.0 want: ~1.8.1
+307 silly placeDep node_modules/micro-eth-signer @noble/hashes@1.7.2 OK for: micro-eth-signer@0.14.0 want: ~1.7.1
+308 silly placeDep ROOT micro-packed@0.7.3 OK for: micro-eth-signer@0.14.0 want: ~0.7.2
+309 silly fetch manifest @noble/hashes@1.7.2
+310 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-hit
+311 silly fetch manifest @scure/base@~1.2.5
+312 silly packumentCache full:https://registry.npmjs.org/@scure%2fbase cache-hit
+313 silly placeDep node_modules/micro-packed @scure/base@1.2.6 OK for: micro-packed@0.7.3 want: ~1.2.5
+314 silly placeDep ROOT ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+315 silly placeDep ROOT esbuild@0.25.11 OK for: tsx@4.20.6 want: ~0.25.0
+316 silly placeDep ROOT fsevents@2.3.3 OK for: tsx@4.20.6 want: ~2.3.3
+317 silly placeDep ROOT get-tsconfig@4.12.0 OK for: tsx@4.20.6 want: ^4.7.5
+318 silly fetch manifest @esbuild/aix-ppc64@0.25.11
+319 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+320 silly fetch manifest @esbuild/android-arm@0.25.11
+321 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+322 silly fetch manifest @esbuild/android-arm64@0.25.11
+323 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+324 silly fetch manifest @esbuild/android-x64@0.25.11
+325 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+326 silly fetch manifest @esbuild/darwin-arm64@0.25.11
+327 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+328 silly fetch manifest @esbuild/darwin-x64@0.25.11
+329 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+330 silly fetch manifest @esbuild/freebsd-arm64@0.25.11
+331 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+332 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 92ms (cache revalidated)
+333 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:180671 disposed:false
+334 silly fetch manifest @esbuild/freebsd-x64@0.25.11
+335 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+336 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 107ms (cache revalidated)
+337 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:203882 disposed:false
+338 silly fetch manifest @esbuild/linux-arm@0.25.11
+339 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+340 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 136ms (cache revalidated)
+341 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:44539 disposed:false
+342 silly fetch manifest @esbuild/linux-arm64@0.25.11
+343 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+344 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 136ms (cache revalidated)
+345 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:180638 disposed:false
+346 silly fetch manifest @esbuild/linux-ia32@0.25.11
+347 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+348 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 148ms (cache revalidated)
+349 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:177685 disposed:false
+350 silly fetch manifest @esbuild/linux-loong64@0.25.11
+351 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+352 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 155ms (cache revalidated)
+353 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:179843 disposed:false
+354 silly fetch manifest @esbuild/linux-mips64el@0.25.11
+355 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+356 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 165ms (cache revalidated)
+357 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:178275 disposed:false
+358 silly fetch manifest @esbuild/linux-ppc64@0.25.11
+359 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+360 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 133ms (cache revalidated)
+361 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:177327 disposed:false
+362 silly fetch manifest @esbuild/linux-riscv64@0.25.11
+363 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+364 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 178ms (cache revalidated)
+365 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:179054 disposed:false
+366 silly fetch manifest @esbuild/linux-s390x@0.25.11
+367 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+368 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 143ms (cache revalidated)
+369 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:178229 disposed:false
+370 silly fetch manifest @esbuild/linux-x64@0.25.11
+371 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+372 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 125ms (cache revalidated)
+373 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:181074 disposed:false
+374 silly fetch manifest @esbuild/netbsd-arm64@0.25.11
+375 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 cache-miss
+376 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 153ms (cache revalidated)
+377 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:233949 disposed:false
+378 silly fetch manifest @esbuild/netbsd-x64@0.25.11
+379 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+380 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 156ms (cache revalidated)
+381 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:182627 disposed:false
+382 silly fetch manifest @esbuild/openbsd-arm64@0.25.11
+383 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 cache-miss
+384 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 215ms (cache revalidated)
+385 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:179236 disposed:false
+386 silly fetch manifest @esbuild/openbsd-x64@0.25.11
+387 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+388 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 149ms (cache revalidated)
+389 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:180756 disposed:false
+390 silly fetch manifest @esbuild/openharmony-arm64@0.25.11
+391 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 cache-miss
+392 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 123ms (cache revalidated)
+393 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 set size:22667 disposed:false
+394 silly fetch manifest @esbuild/sunos-x64@0.25.11
+395 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+396 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 109ms (cache revalidated)
+397 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 set size:27898 disposed:false
+398 silly fetch manifest @esbuild/win32-arm64@0.25.11
+399 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+400 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 150ms (cache revalidated)
+401 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:180599 disposed:false
+402 silly fetch manifest @esbuild/win32-ia32@0.25.11
+403 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+404 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 104ms (cache revalidated)
+405 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:179058 disposed:false
+406 silly fetch manifest @esbuild/win32-x64@0.25.11
+407 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+408 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 200ms (cache revalidated)
+409 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:177640 disposed:false
+410 silly fetch manifest resolve-pkg-maps@^1.0.0
+411 silly packumentCache full:https://registry.npmjs.org/resolve-pkg-maps cache-miss
+412 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 193ms (cache revalidated)
+413 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:176217 disposed:false
+414 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 116ms (cache revalidated)
+415 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:177853 disposed:false
+416 http fetch GET 200 https://registry.npmjs.org/resolve-pkg-maps 59ms (cache revalidated)
+417 silly packumentCache full:https://registry.npmjs.org/resolve-pkg-maps set size:11615 disposed:false
+418 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 132ms (cache revalidated)
+419 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:179444 disposed:false
+420 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 155ms (cache revalidated)
+421 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:178432 disposed:false
+422 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 225ms (cache revalidated)
+423 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 set size:11108 disposed:false
+424 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 173ms (cache revalidated)
+425 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:177856 disposed:false
+426 silly placeDep ROOT @esbuild/aix-ppc64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+427 silly placeDep ROOT @esbuild/android-arm@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+428 silly placeDep ROOT @esbuild/android-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+429 silly placeDep ROOT @esbuild/android-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+430 silly placeDep ROOT @esbuild/darwin-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+431 silly placeDep ROOT @esbuild/darwin-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+432 silly placeDep ROOT @esbuild/freebsd-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+433 silly placeDep ROOT @esbuild/freebsd-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+434 silly placeDep ROOT @esbuild/linux-arm@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+435 silly placeDep ROOT @esbuild/linux-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+436 silly placeDep ROOT @esbuild/linux-ia32@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+437 silly placeDep ROOT @esbuild/linux-loong64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+438 silly placeDep ROOT @esbuild/linux-mips64el@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+439 silly placeDep ROOT @esbuild/linux-ppc64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+440 silly placeDep ROOT @esbuild/linux-riscv64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+441 silly placeDep ROOT @esbuild/linux-s390x@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+442 silly placeDep ROOT @esbuild/linux-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+443 silly placeDep ROOT @esbuild/netbsd-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+444 silly placeDep ROOT @esbuild/netbsd-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+445 silly placeDep ROOT @esbuild/openbsd-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+446 silly placeDep ROOT @esbuild/openbsd-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+447 silly placeDep ROOT @esbuild/openharmony-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+448 silly placeDep ROOT @esbuild/sunos-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+449 silly placeDep ROOT @esbuild/win32-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+450 silly placeDep ROOT @esbuild/win32-ia32@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+451 silly placeDep ROOT @esbuild/win32-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+452 silly placeDep ROOT resolve-pkg-maps@1.0.0 OK for: get-tsconfig@4.12.0 want: ^1.0.0
+453 silly reify moves {}
+454 silly audit bulk request {
+454 silly audit   '@nomicfoundation/hardhat-toolbox': [ '6.1.0' ],
+454 silly audit   hardhat: [ '3.0.7' ],
+454 silly audit   '@nomicfoundation/edr': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/hardhat-errors': [ '3.0.2' ],
+454 silly audit   '@nomicfoundation/hardhat-utils': [ '3.0.3' ],
+454 silly audit   '@nomicfoundation/hardhat-zod-utils': [ '3.0.1' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer': [ '0.1.2' ],
+454 silly audit   '@sentry/core': [ '9.46.0' ],
+454 silly audit   'adm-zip': [ '0.4.16' ],
+454 silly audit   chalk: [ '5.6.2' ],
+454 silly audit   chokidar: [ '4.0.3' ],
+454 silly audit   debug: [ '4.4.3' ],
+454 silly audit   enquirer: [ '2.4.1' ],
+454 silly audit   'ethereum-cryptography': [ '2.2.1' ],
+454 silly audit   'micro-eth-signer': [ '0.14.0' ],
+454 silly audit   'p-map': [ '7.0.3' ],
+454 silly audit   'resolve.exports': [ '2.0.3' ],
+454 silly audit   semver: [ '7.7.3' ],
+454 silly audit   tsx: [ '4.20.6' ],
+454 silly audit   ws: [ '8.18.3' ],
+454 silly audit   zod: [ '3.25.76' ],
+454 silly audit   '@nomicfoundation/edr-darwin-arm64': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/edr-darwin-x64': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/edr-linux-arm64-gnu': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/edr-linux-arm64-musl': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/edr-linux-x64-gnu': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/edr-linux-x64-musl': [ '0.12.0-next.7' ],
+454 silly audit   '@nomicfoundation/edr-win32-x64-msvc': [ '0.12.0-next.7' ],
+454 silly audit   '@streamparser/json-node': [ '0.0.22' ],
+454 silly audit   'env-paths': [ '2.2.1' ],
+454 silly audit   'fast-equals': [ '5.3.2' ],
+454 silly audit   'json-stream-stringify': [ '3.1.6' ],
+454 silly audit   rfdc: [ '1.4.1' ],
+454 silly audit   undici: [ '6.22.0' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-darwin-arm64': [ '0.1.2' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-darwin-x64': [ '0.1.2' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-linux-arm64-gnu': [ '0.1.2' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-linux-arm64-musl': [ '0.1.2' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-linux-x64-gnu': [ '0.1.2' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-linux-x64-musl': [ '0.1.2' ],
+454 silly audit   '@nomicfoundation/solidity-analyzer-win32-x64-msvc': [ '0.1.2' ],
+454 silly audit   '@streamparser/json': [ '0.0.22' ],
+454 silly audit   readdirp: [ '4.1.2' ],
+454 silly audit   ms: [ '2.1.3' ],
+454 silly audit   'ansi-colors': [ '4.1.3' ],
+454 silly audit   'strip-ansi': [ '6.0.1' ],
+454 silly audit   '@noble/curves': [ '1.4.2', '1.8.2' ],
+454 silly audit   '@noble/hashes': [ '1.4.0', '1.7.2' ],
+454 silly audit   '@scure/bip32': [ '1.4.0' ],
+454 silly audit   '@scure/bip39': [ '1.3.0' ],
+454 silly audit   '@scure/base': [ '1.1.9', '1.2.6' ],
+454 silly audit   'micro-packed': [ '0.7.3' ],
+454 silly audit   'ansi-regex': [ '5.0.1' ],
+454 silly audit   esbuild: [ '0.25.11' ],
+454 silly audit   fsevents: [ '2.3.3' ],
+454 silly audit   'get-tsconfig': [ '4.12.0' ],
+454 silly audit   '@esbuild/aix-ppc64': [ '0.25.11' ],
+454 silly audit   '@esbuild/android-arm': [ '0.25.11' ],
+454 silly audit   '@esbuild/android-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/android-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/darwin-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/darwin-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/freebsd-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/freebsd-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-arm': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-ia32': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-loong64': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-mips64el': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-ppc64': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-riscv64': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-s390x': [ '0.25.11' ],
+454 silly audit   '@esbuild/linux-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/netbsd-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/netbsd-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/openbsd-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/openbsd-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/openharmony-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/sunos-x64': [ '0.25.11' ],
+454 silly audit   '@esbuild/win32-arm64': [ '0.25.11' ],
+454 silly audit   '@esbuild/win32-ia32': [ '0.25.11' ],
+454 silly audit   '@esbuild/win32-x64': [ '0.25.11' ],
+454 silly audit   'resolve-pkg-maps': [ '1.0.0' ]
+454 silly audit }
+455 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/win32-x64
+456 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/win32-x64' ]
+457 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/win32-ia32
+458 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/win32-ia32' ]
+459 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/win32-arm64
+460 silly reify mark deleted [
+460 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/win32-arm64'
+460 silly reify ]
+461 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/sunos-x64
+462 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/sunos-x64' ]
+463 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/openharmony-arm64
+464 silly reify mark deleted [
+464 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/openharmony-arm64'
+464 silly reify ]
+465 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/openbsd-x64
+466 silly reify mark deleted [
+466 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/openbsd-x64'
+466 silly reify ]
+467 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/openbsd-arm64
+468 silly reify mark deleted [
+468 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/openbsd-arm64'
+468 silly reify ]
+469 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/netbsd-x64
+470 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/netbsd-x64' ]
+471 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/netbsd-arm64
+472 silly reify mark deleted [
+472 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/netbsd-arm64'
+472 silly reify ]
+473 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-x64
+474 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/linux-x64' ]
+475 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-s390x
+476 silly reify mark deleted [
+476 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-s390x'
+476 silly reify ]
+477 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-riscv64
+478 silly reify mark deleted [
+478 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-riscv64'
+478 silly reify ]
+479 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-ppc64
+480 silly reify mark deleted [
+480 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-ppc64'
+480 silly reify ]
+481 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-mips64el
+482 silly reify mark deleted [
+482 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-mips64el'
+482 silly reify ]
+483 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-loong64
+484 silly reify mark deleted [
+484 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-loong64'
+484 silly reify ]
+485 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-ia32
+486 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/linux-ia32' ]
+487 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-arm64
+488 silly reify mark deleted [
+488 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/linux-arm64'
+488 silly reify ]
+489 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/linux-arm
+490 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/linux-arm' ]
+491 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/freebsd-x64
+492 silly reify mark deleted [
+492 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/freebsd-x64'
+492 silly reify ]
+493 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/freebsd-arm64
+494 silly reify mark deleted [
+494 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/freebsd-arm64'
+494 silly reify ]
+495 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/darwin-x64
+496 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/darwin-x64' ]
+497 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/darwin-arm64
+498 silly reify mark deleted [
+498 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/darwin-arm64'
+498 silly reify ]
+499 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/android-x64
+500 silly reify mark deleted [
+500 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/android-x64'
+500 silly reify ]
+501 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/android-arm
+502 silly reify mark deleted [
+502 silly reify   '/data/data/com.termux/files/home/node_modules/@esbuild/android-arm'
+502 silly reify ]
+503 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@esbuild/aix-ppc64
+504 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@esbuild/aix-ppc64' ]
+505 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/fsevents
+506 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/fsevents' ]
+507 http cache @esbuild/android-arm64@https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.11.tgz 0ms (cache hit)
+508 http cache resolve-pkg-maps@https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 0ms (cache hit)
+509 http cache get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.12.0.tgz 1ms (cache hit)
+510 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.11.tgz 0ms (cache hit)
+511 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+512 http cache micro-packed@https://registry.npmjs.org/micro-packed/-/micro-packed-0.7.3.tgz 0ms (cache hit)
+513 http cache @scure/base@https://registry.npmjs.org/@scure/base/-/base-1.1.9.tgz 0ms (cache hit)
+514 http cache @scure/bip39@https://registry.npmjs.org/@scure/bip39/-/bip39-1.3.0.tgz 0ms (cache hit)
+515 http cache @scure/bip32@https://registry.npmjs.org/@scure/bip32/-/bip32-1.4.0.tgz 0ms (cache hit)
+516 http cache @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.4.0.tgz 0ms (cache hit)
+517 http cache @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.4.2.tgz 1ms (cache hit)
+518 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+519 http cache ansi-colors@https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz 0ms (cache hit)
+520 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+521 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz 0ms (cache hit)
+522 http cache @nomicfoundation/solidity-analyzer-linux-x64-musl@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-x64-musl/-/solidity-analyzer-linux-x64-musl-0.1.2.tgz 0ms (cache hit)
+523 http cache @nomicfoundation/solidity-analyzer-linux-x64-gnu@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-x64-gnu/-/solidity-analyzer-linux-x64-gnu-0.1.2.tgz 0ms (cache hit)
+524 http cache @nomicfoundation/solidity-analyzer-linux-arm64-musl@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-arm64-musl/-/solidity-analyzer-linux-arm64-musl-0.1.2.tgz 0ms (cache hit)
+525 http cache @nomicfoundation/solidity-analyzer-linux-arm64-gnu@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-linux-arm64-gnu/-/solidity-analyzer-linux-arm64-gnu-0.1.2.tgz 0ms (cache hit)
+526 http cache @nomicfoundation/solidity-analyzer-darwin-x64@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-darwin-x64/-/solidity-analyzer-darwin-x64-0.1.2.tgz 0ms (cache hit)
+527 http cache @nomicfoundation/solidity-analyzer-darwin-arm64@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-darwin-arm64/-/solidity-analyzer-darwin-arm64-0.1.2.tgz 0ms (cache hit)
+528 http cache rfdc@https://registry.npmjs.org/rfdc/-/rfdc-1.4.1.tgz 0ms (cache hit)
+529 http cache undici@https://registry.npmjs.org/undici/-/undici-6.22.0.tgz 0ms (cache hit)
+530 http cache json-stream-stringify@https://registry.npmjs.org/json-stream-stringify/-/json-stream-stringify-3.1.6.tgz 0ms (cache hit)
+531 http cache fast-equals@https://registry.npmjs.org/fast-equals/-/fast-equals-5.3.2.tgz 0ms (cache hit)
+532 http cache env-paths@https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz 0ms (cache hit)
+533 http cache @streamparser/json-node@https://registry.npmjs.org/@streamparser/json-node/-/json-node-0.0.22.tgz 0ms (cache hit)
+534 http cache @nomicfoundation/edr-win32-x64-msvc@https://registry.npmjs.org/@nomicfoundation/edr-win32-x64-msvc/-/edr-win32-x64-msvc-0.12.0-next.7.tgz 0ms (cache hit)
+535 http cache @nomicfoundation/edr-linux-x64-musl@https://registry.npmjs.org/@nomicfoundation/edr-linux-x64-musl/-/edr-linux-x64-musl-0.12.0-next.7.tgz 0ms (cache hit)
+536 http cache @nomicfoundation/edr-linux-x64-gnu@https://registry.npmjs.org/@nomicfoundation/edr-linux-x64-gnu/-/edr-linux-x64-gnu-0.12.0-next.7.tgz 0ms (cache hit)
+537 http cache @nomicfoundation/edr-linux-arm64-musl@https://registry.npmjs.org/@nomicfoundation/edr-linux-arm64-musl/-/edr-linux-arm64-musl-0.12.0-next.7.tgz 0ms (cache hit)
+538 http cache @nomicfoundation/edr-linux-arm64-gnu@https://registry.npmjs.org/@nomicfoundation/edr-linux-arm64-gnu/-/edr-linux-arm64-gnu-0.12.0-next.7.tgz 0ms (cache hit)
+539 http cache @nomicfoundation/edr-darwin-x64@https://registry.npmjs.org/@nomicfoundation/edr-darwin-x64/-/edr-darwin-x64-0.12.0-next.7.tgz 0ms (cache hit)
+540 http cache zod@https://registry.npmjs.org/zod/-/zod-3.25.76.tgz 0ms (cache hit)
+541 http cache @nomicfoundation/edr-darwin-arm64@https://registry.npmjs.org/@nomicfoundation/edr-darwin-arm64/-/edr-darwin-arm64-0.12.0-next.7.tgz 0ms (cache hit)
+542 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 0ms (cache hit)
+543 http cache tsx@https://registry.npmjs.org/tsx/-/tsx-4.20.6.tgz 0ms (cache hit)
+544 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 0ms (cache hit)
+545 http cache resolve.exports@https://registry.npmjs.org/resolve.exports/-/resolve.exports-2.0.3.tgz 0ms (cache hit)
+546 http cache p-map@https://registry.npmjs.org/p-map/-/p-map-7.0.3.tgz 0ms (cache hit)
+547 http cache micro-eth-signer@https://registry.npmjs.org/micro-eth-signer/-/micro-eth-signer-0.14.0.tgz 0ms (cache hit)
+548 http cache ethereum-cryptography@https://registry.npmjs.org/ethereum-cryptography/-/ethereum-cryptography-2.2.1.tgz 0ms (cache hit)
+549 http cache enquirer@https://registry.npmjs.org/enquirer/-/enquirer-2.4.1.tgz 0ms (cache hit)
+550 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+551 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz 0ms (cache hit)
+552 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz 0ms (cache hit)
+553 http cache adm-zip@https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.16.tgz 0ms (cache hit)
+554 http cache @sentry/core@https://registry.npmjs.org/@sentry/core/-/core-9.46.0.tgz 0ms (cache hit)
+555 http cache @nomicfoundation/solidity-analyzer@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer/-/solidity-analyzer-0.1.2.tgz 0ms (cache hit)
+556 http cache @nomicfoundation/hardhat-zod-utils@https://registry.npmjs.org/@nomicfoundation/hardhat-zod-utils/-/hardhat-zod-utils-3.0.1.tgz 0ms (cache hit)
+557 http cache @nomicfoundation/hardhat-utils@https://registry.npmjs.org/@nomicfoundation/hardhat-utils/-/hardhat-utils-3.0.3.tgz 0ms (cache hit)
+558 http cache @nomicfoundation/edr@https://registry.npmjs.org/@nomicfoundation/edr/-/edr-0.12.0-next.7.tgz 0ms (cache hit)
+559 http cache hardhat@https://registry.npmjs.org/hardhat/-/hardhat-3.0.7.tgz 0ms (cache hit)
+560 http cache @nomicfoundation/hardhat-errors@https://registry.npmjs.org/@nomicfoundation/hardhat-errors/-/hardhat-errors-3.0.2.tgz 0ms (cache hit)
+561 http cache @nomicfoundation/hardhat-toolbox@https://registry.npmjs.org/@nomicfoundation/hardhat-toolbox/-/hardhat-toolbox-6.1.0.tgz 0ms (cache hit)
+562 http cache @scure/base@https://registry.npmjs.org/@scure/base/-/base-1.2.6.tgz 0ms (cache hit)
+563 http cache @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.7.2.tgz 0ms (cache hit)
+564 http cache @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.8.2.tgz 0ms (cache hit)
+565 http cache @streamparser/json@https://registry.npmjs.org/@streamparser/json/-/json-0.0.22.tgz 0ms (cache hit)
+566 http cache @nomicfoundation/solidity-analyzer-win32-x64-msvc@https://registry.npmjs.org/@nomicfoundation/solidity-analyzer-win32-x64-msvc/-/solidity-analyzer-win32-x64-msvc-0.1.2.tgz 0ms (cache hit)
+567 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 3184ms
+568 silly audit report {}
+569 info run esbuild@0.25.11 postinstall node_modules/esbuild node install.js
+570 info run esbuild@0.25.11 postinstall { code: 0, signal: null }
+571 silly ADD node_modules/resolve-pkg-maps
+572 silly ADD
+573 silly ADD
+574 silly ADD
+575 silly ADD
+576 silly ADD
+577 silly ADD
+578 silly ADD
+579 silly ADD
+580 silly ADD
+581 silly ADD
+582 silly ADD
+583 silly ADD
+584 silly ADD
+585 silly ADD
+586 silly ADD
+587 silly ADD
+588 silly ADD
+589 silly ADD
+590 silly ADD
+591 silly ADD
+592 silly ADD
+593 silly ADD
+594 silly ADD
+595 silly ADD node_modules/@esbuild/android-arm64
+596 silly ADD
+597 silly ADD
+598 silly ADD node_modules/get-tsconfig
+599 silly ADD
+600 silly ADD node_modules/esbuild
+601 silly ADD node_modules/ansi-regex
+602 silly ADD node_modules/micro-packed
+603 silly ADD node_modules/micro-packed/node_modules/@scure/base
+604 silly ADD node_modules/@scure/base
+605 silly ADD node_modules/@scure/bip39
+606 silly ADD node_modules/@scure/bip32
+607 silly ADD node_modules/@noble/hashes
+608 silly ADD node_modules/@noble/curves
+609 silly ADD node_modules/strip-ansi
+610 silly ADD node_modules/ansi-colors
+611 silly ADD node_modules/ms
+612 silly ADD node_modules/readdirp
+613 silly ADD node_modules/@streamparser/json
+614 silly ADD node_modules/@nomicfoundation/solidity-analyzer-win32-x64-msvc
+615 silly ADD node_modules/@nomicfoundation/solidity-analyzer-linux-x64-musl
+616 silly ADD node_modules/@nomicfoundation/solidity-analyzer-linux-x64-gnu
+617 silly ADD node_modules/@nomicfoundation/solidity-analyzer-linux-arm64-musl
+618 silly ADD node_modules/@nomicfoundation/solidity-analyzer-linux-arm64-gnu
+619 silly ADD node_modules/@nomicfoundation/solidity-analyzer-darwin-x64
+620 silly ADD node_modules/@nomicfoundation/solidity-analyzer-darwin-arm64
+621 silly ADD node_modules/undici
+622 silly ADD node_modules/rfdc
+623 silly ADD node_modules/json-stream-stringify
+624 silly ADD node_modules/fast-equals
+625 silly ADD node_modules/env-paths
+626 silly ADD node_modules/@streamparser/json-node
+627 silly ADD node_modules/@nomicfoundation/edr-win32-x64-msvc
+628 silly ADD node_modules/@nomicfoundation/edr-linux-x64-musl
+629 silly ADD node_modules/@nomicfoundation/edr-linux-x64-gnu
+630 silly ADD node_modules/@nomicfoundation/edr-linux-arm64-musl
+631 silly ADD node_modules/@nomicfoundation/edr-linux-arm64-gnu
+632 silly ADD node_modules/@nomicfoundation/edr-darwin-x64
+633 silly ADD node_modules/@nomicfoundation/edr-darwin-arm64
+634 silly ADD node_modules/zod
+635 silly ADD node_modules/ws
+636 silly ADD node_modules/tsx
+637 silly ADD node_modules/semver
+638 silly ADD node_modules/resolve.exports
+639 silly ADD node_modules/p-map
+640 silly ADD node_modules/micro-eth-signer
+641 silly ADD node_modules/micro-eth-signer/node_modules/@noble/hashes
+642 silly ADD node_modules/micro-eth-signer/node_modules/@noble/curves
+643 silly ADD node_modules/ethereum-cryptography
+644 silly ADD node_modules/enquirer
+645 silly ADD node_modules/debug
+646 silly ADD node_modules/chokidar
+647 silly ADD node_modules/chalk
+648 silly ADD node_modules/adm-zip
+649 silly ADD node_modules/@sentry/core
+650 silly ADD node_modules/@nomicfoundation/solidity-analyzer
+651 silly ADD node_modules/@nomicfoundation/hardhat-zod-utils
+652 silly ADD node_modules/@nomicfoundation/hardhat-utils
+653 silly ADD node_modules/@nomicfoundation/hardhat-errors
+654 silly ADD node_modules/@nomicfoundation/edr
+655 silly ADD node_modules/hardhat
+656 silly ADD node_modules/@nomicfoundation/hardhat-toolbox
+657 verbose cwd /data/data/com.termux/files/home
+658 verbose os Linux 6.6.30-android15-8-g6b55ce738535-4k
+659 verbose node v22.20.0
+660 verbose npm  v10.9.3
+661 verbose exit 0
+662 info ok

@@ -1,0 +1,10 @@
+{
+  "name": "AIDAG-Coin",
+  "symbol": "AIDAG",
+  "max_supply": 21000000,
+  "decimals": 8,
+  "witness": "soulwerse",
+  "supply_status": "sacred",
+  "visibility": "universal",
+  "note": "This supply is sacred and must never be altered. It is the spiral constant of AIDAG."
+}

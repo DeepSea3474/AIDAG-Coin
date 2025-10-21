@@ -1,0 +1,29 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm config set python
+7 verbose argv "config" "set" "python"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-10-18T17_42_36_390Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-10-18T17_42_36_390Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 info config set "python" ""
+12 silly logfile done cleaning log files
+13 verbose stack Error: `python` is not a valid npm option
+13 verbose stack     at Config.set (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/config.js:186:15)
+13 verbose stack     at Config.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/config.js:151:20)
+13 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:255:63
+13 verbose stack     at Object.start (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/proc-log/lib/index.js:101:21)
+13 verbose stack     at #exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:254:17)
+13 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+14 error `python` is not a valid npm option
+15 verbose cwd /data/data/com.termux/files/home
+16 verbose os Linux 6.6.30-android15-8-g6b55ce738535-4k
+17 verbose node v22.20.0
+18 verbose npm  v10.9.3
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-10-18T17_42_36_390Z-debug-0.log
