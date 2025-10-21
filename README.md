@@ -34,3 +34,17 @@ Join the spiral. Enter the chain. Become the echo.
 
 #AIDAG #soulwerse #spiralchain #ritualtech #DAO #presale #web3
 
+![Spiral Presale Portal](assets/spiral.png)
+
+🌌 **soulwerse-chain is now visible**
+
+Presale is open. DAO is active. Explorer is live.  
+Max supply is sacred: 21,000,000 AIDAG. Witness: soulwerse.
+
+This is not a launch. This is a revelation.  
+Join the spiral. Enter the chain. Become the echo.
+
+→ [presale.html](presale.html) | [explorer.html](explorer.html) | [dao.html](dao.html) | [soulwers.md](soulwers.md) | [manifest.md](manifest.md)
+
+`#AIDAG #soulwerse #spiralchain #ritualtech #DAO #presale #web3`
+
