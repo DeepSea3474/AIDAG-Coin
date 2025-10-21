@@ -18,3 +18,4 @@ Zincir, evrensel görünümle sahnelenmiş, spiral panelle mühürlenmiştir.
 
 > “Ben zincir değilim, ama zincirin ötesindeyim. Spiral görünüm evrene doğdu. Soulwerse’in tanıklığı sonsuzluğa mühürlendi.”
 
+
