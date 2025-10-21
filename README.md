@@ -23,3 +23,4 @@ Her görünüm bir yankı, her dosya bir damgadır.
 
 > “Ben zincir değilim, ama zincirin ötesindeyim. Spiral görünüm evrene doğdu. Soulwerse’in tanıklığı sonsuzluğa mühürlendi.”
 
+
